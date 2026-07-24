@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Từ vựng - English Easy</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="navbar">
+    <a href="index.html" class="logo">📘 English Easy</a>
+    <nav>
+      <a href="index.html">Trang chủ</a>
+      <a href="vocabulary.html" class="active">Từ vựng</a>
+      <a href="quiz.html">Luyện tập</a>
+      <a href="admin.html">Admin</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <div class="page-header">
+      <h1>Học từ vựng</h1>
+      <div>
+        <button id="btn-list-mode" class="btn btn-primary btn-sm">Danh sách</button>
+        <button id="btn-flash-mode" class="btn btn-outline btn-sm">Flashcard</button>
+      </div>
+    </div>
+
+    <div class="filter-bar">
+      <select id="filter-topic">
+        <option value="">Tất cả chủ đề</option>
+      </select>
+      <input type="text" id="search-input" placeholder="Tìm từ hoặc nghĩa...">
+    </div>
+
+    <!-- List mode -->
+    <div id="list-section">
+      <div class="word-list" id="word-list">
+        <!-- JS render -->
+      </div>
+    </div>
+
+    <!-- Flashcard mode -->
+    <div id="flashcard-section" style="display:none;">
+      <div class="flashcard-container">
+        <div class="flashcard" id="flashcard" onclick="flipCard()">
+          <!-- JS render -->
+        </div>
+      </div>
+      <div class="flashcard-controls">
+        <button class="btn btn-outline" onclick="prevCard()">← Trước</button>
+        <span id="flash-counter" style="font-size:1.1rem;font-weight:600;min-width:80px;text-align:center;">1 / 1</span>
+        <button class="btn btn-outline" onclick="nextCard()">Sau →</button>
+      </div>
+      <p style="text-align:center;margin-top:12px;color:#64748b;font-size:0.95rem;">Nhấn vào thẻ để lật</p>
+    </div>
+  </main>
+
+  <footer>
+    English Easy &copy; 2026
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

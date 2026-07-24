@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin - English Easy</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .admin-tabs {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 20px;
+    }
+    .admin-tabs button {
+      padding: 10px 18px;
+      border: 2px solid #0ea5e9;
+      background: white;
+      color: #0ea5e9;
+      border-radius: 8px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    .admin-tabs button.active {
+      background: #0ea5e9;
+      color: white;
+    }
+    .tab-content { display: none; }
+    .tab-content.active { display: block; }
+  </style>
+</head>
+<body>
+  <header class="navbar">
+    <a href="index.html" class="logo">📘 English Easy</a>
+    <nav>
+      <a href="index.html">Trang chủ</a>
+      <a href="vocabulary.html">Từ vựng</a>
+      <a href="quiz.html">Luyện tập</a>
+      <a href="admin.html" class="active">Admin</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <!-- Login -->
+    <div id="login-section" class="admin-login">
+      <h2>🔐 Đăng nhập Admin</h2>
+      <div class="form-group">
+        <label>Mật khẩu</label>
+        <input type="password" id="admin-password" placeholder="Nhập mật khẩu...">
+      </div>
+      <button id="btn-login" class="btn btn-primary" style="width:100%;">Đăng nhập</button>
+    </div>
+
+    <!-- Admin Panel -->
+    <div id="admin-panel" class="admin-panel">
+      <div class="page-header">
+        <h1>Trang quản trị</h1>
+        <button class="btn btn-outline btn-sm" onclick="logout()">Đăng xuất</button>
+      </div>
+
+      <div class="admin-tabs">
+        <button class="active" onclick="switchTab('vocab')">Quản lý từ vựng</button>
+        <button onclick="switchTab('quiz')">Quản lý bài tập</button>
+      </div>
+
+      <!-- ===== TAB TỪ VỰNG ===== -->
+      <div id="tab-vocab" class="tab-content active">
+        <div class="admin-actions">
+          <button class="btn btn-primary" onclick="openAddModal()">+ Thêm từ mới</button>
+          <button class="btn btn-success" onclick="exportJSON()">⬇ Export JSON</button>
+          <label class="btn btn-outline" style="cursor:pointer;">
+            ⬆ Import JSON
+            <input type="file" accept=".json" style="display:none;" onchange="importJSON(event)">
+          </label>
+          <label class="btn btn-outline" style="cursor:pointer;">
+            ⬆ Import CSV
+            <input type="file" accept=".csv" style="display:none;" onchange="importCSV(event)">
+          </label>
+          <button class="btn btn-danger btn-sm" onclick="resetToDefault()">Reset mặc định</button>
+        </div>
+
+        <div style="overflow-x:auto;">
+          <table class="admin-table">
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>Từ</th>
+                <th>Phiên âm</th>
+                <th>Nghĩa</th>
+                <th>Chủ đề</th>
+                <th>Ví dụ</th>
+                <th>Thao tác</th>
+              </tr>
+            </thead>
+            <tbody id="vocab-tbody"></tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- ===== TAB BÀI TẬP ===== -->
+      <div id="tab-quiz" class="tab-content">
+        <div style="background:white; padding:24px; border-radius:14px; margin-bottom:24px; box-shadow:0 2px 12px rgba(0,0,0,0.05);">
+          <h3 style="margin-bottom:16px; color:#0369a1;">Tạo bài tập mới</h3>
+          
+          <div class="form-group">
+            <label>Tên bài tập</label>
+            <input type="text" id="quiz-title" placeholder="Ví dụ: Unit 1 - Ôn tập 15 câu">
+          </div>
+
+          <div class="form-group">
+            <label>Chọn chủ đề / Unit</label>
+            <select id="admin-quiz-topic">
+              <option value="">-- Tất cả từ vựng --</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label>Số câu hỏi</label>
+            <input type="number" id="admin-quiz-count" min="1" value="10">
+            <small id="admin-max-info" style="color:#64748b;"></small>
+          </div>
+
+          <button class="btn btn-primary" onclick="handleCreateQuiz()">Tạo bài tập</button>
+        </div>
+
+        <h3 style="margin-bottom:12px; color:#0369a1;">Danh sách bài tập đã tạo</h3>
+        <div id="quiz-list-admin"></div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Modal Add/Edit Word -->
+  <div class="modal" id="word-modal">
+    <div class="modal-content">
+      <h3 id="modal-title">Thêm từ mới</h3>
+      <div class="form-group">
+        <label>Từ tiếng Anh *</label>
+        <input type="text" id="form-word" placeholder="apple">
+      </div>
+      <div class="form-group">
+        <label>Phiên âm</label>
+        <input type="text" id="form-phonetic" placeholder="/ˈæp.əl/">
+      </div>
+      <div class="form-group">
+        <label>Nghĩa tiếng Việt *</label>
+        <input type="text" id="form-meaning" placeholder="quả táo">
+      </div>
+      <div class="form-group">
+        <label>Chủ đề *</label>
+        <input type="text" id="form-topic" placeholder="Unit 1">
+      </div>
+      <div class="form-group">
+        <label>Câu ví dụ (English)</label>
+        <input type="text" id="form-example" placeholder="I eat an apple every day.">
+      </div>
+      <div class="form-group">
+        <label>Câu ví dụ (Tiếng Việt)</label>
+        <input type="text" id="form-example-vi" placeholder="Tôi ăn một quả táo mỗi ngày.">
+      </div>
+      <div class="modal-actions">
+        <button class="btn btn-outline" onclick="closeModal()">Hủy</button>
+        <button class="btn btn-primary" onclick="saveWord()">Lưu</button>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    English Easy &copy; 2026 – Admin Panel
+  </footer>
+
+  <script src="js/quiz-manager.js"></script>
+  <script src="js/admin.js"></script>
+</body>
+</html>

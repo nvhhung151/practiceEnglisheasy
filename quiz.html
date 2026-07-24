@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Luyện tập - English Easy</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="navbar">
+    <a href="index.html" class="logo">📘 English Easy</a>
+    <nav>
+      <a href="index.html">Trang chủ</a>
+      <a href="vocabulary.html">Từ vựng</a>
+      <a href="quiz.html" class="active">Luyện tập</a>
+      <a href="admin.html">Admin</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <div class="page-header">
+      <h1>Bài tập từ vựng</h1>
+    </div>
+
+    <!-- Danh sách bài tập do Admin tạo -->
+    <div id="quiz-list-user">
+      <p style="text-align:center; color:#64748b; padding:40px;">Đang tải danh sách bài tập...</p>
+    </div>
+
+    <!-- Màn hình làm bài -->
+    <div class="quiz-box" id="quiz-box" style="display:none;"></div>
+  </main>
+
+  <footer>
+    English Easy &copy; 2026
+  </footer>
+
+  <script src="js/quiz-manager.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
