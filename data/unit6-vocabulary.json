@@ -1,0 +1,407 @@
+[
+  {
+    "id": 191,
+    "word": "invertebrates",
+    "phonetic": "",
+    "meaning": "động vật không xương sống",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 192,
+    "word": "amphibians",
+    "phonetic": "",
+    "meaning": "động vật lưỡng cư",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 193,
+    "word": "salamander",
+    "phonetic": "",
+    "meaning": "con kỳ giông",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 194,
+    "word": "reptiles",
+    "phonetic": "",
+    "meaning": "loài bò sát",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 195,
+    "word": "disgusting",
+    "phonetic": "",
+    "meaning": "gớm ghiếc",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 196,
+    "word": "frightening",
+    "phonetic": "",
+    "meaning": "đáng sợ",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 197,
+    "word": "feel sorry for",
+    "phonetic": "",
+    "meaning": "cảm thấy tội nghiệp",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 198,
+    "word": "kitten",
+    "phonetic": "",
+    "meaning": "con mèo con",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 199,
+    "word": "put up with",
+    "phonetic": "",
+    "meaning": "chịu đựng",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 200,
+    "word": "fool around",
+    "phonetic": "",
+    "meaning": "đùa giỡn",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 201,
+    "word": "get too rough",
+    "phonetic": "",
+    "meaning": "trở nên hung dữ",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 202,
+    "word": "coop up",
+    "phonetic": "",
+    "meaning": "nhốt vào không gian hẹp",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 203,
+    "word": "cage",
+    "phonetic": "",
+    "meaning": "cái lồng / chuồng",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 204,
+    "word": "mammal",
+    "phonetic": "",
+    "meaning": "động vật có vú",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 205,
+    "word": "humane",
+    "phonetic": "",
+    "meaning": "nhân đạo",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 206,
+    "word": "assume",
+    "phonetic": "",
+    "meaning": "giả định",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 207,
+    "word": "in captivity",
+    "phonetic": "",
+    "meaning": "trong tình trạng nuôi nhốt",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 208,
+    "word": "treat",
+    "phonetic": "",
+    "meaning": "đối xử",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 209,
+    "word": "mistreat",
+    "phonetic": "",
+    "meaning": "ngược đãi",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 210,
+    "word": "get fed up",
+    "phonetic": "",
+    "meaning": "bực mình, chán",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 211,
+    "word": "hunting",
+    "phonetic": "",
+    "meaning": "săn bắn",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 212,
+    "word": "bullfighting",
+    "phonetic": "",
+    "meaning": "đấu bò",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 213,
+    "word": "defenseless animals",
+    "phonetic": "",
+    "meaning": "động vật không có sức phản kháng",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 214,
+    "word": "ban",
+    "phonetic": "",
+    "meaning": "cấm",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 215,
+    "word": "ridiculous",
+    "phonetic": "",
+    "meaning": "lố bịch",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 216,
+    "word": "inhumane treatment",
+    "phonetic": "",
+    "meaning": "đối xử vô nhân đạo",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 217,
+    "word": "justify",
+    "phonetic": "",
+    "meaning": "biện minh",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 218,
+    "word": "slaughter",
+    "phonetic": "",
+    "meaning": "giết mổ",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 219,
+    "word": "prohibit",
+    "phonetic": "",
+    "meaning": "cấm",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 220,
+    "word": "preserve",
+    "phonetic": "",
+    "meaning": "bảo tồn",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 221,
+    "word": "playful",
+    "phonetic": "",
+    "meaning": "hay đùa nghịch",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 222,
+    "word": "affectionate",
+    "phonetic": "",
+    "meaning": "tình cảm",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 223,
+    "word": "good-natured",
+    "phonetic": "",
+    "meaning": "hiền lành",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 224,
+    "word": "devoted",
+    "phonetic": "",
+    "meaning": "tận tụy",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 225,
+    "word": "protective",
+    "phonetic": "",
+    "meaning": "bảo vệ",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 226,
+    "word": "destructive",
+    "phonetic": "",
+    "meaning": "hay phá phách",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 227,
+    "word": "predators",
+    "phonetic": "",
+    "meaning": "động vật săn mồi",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 228,
+    "word": "prey",
+    "phonetic": "",
+    "meaning": "con mồi",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 229,
+    "word": "instinct",
+    "phonetic": "",
+    "meaning": "bản năng",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 230,
+    "word": "endangered animals",
+    "phonetic": "",
+    "meaning": "động vật có nguy cơ tuyệt chủng",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 231,
+    "word": "biodiversity",
+    "phonetic": "",
+    "meaning": "đa dạng sinh học",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 232,
+    "word": "habitats",
+    "phonetic": "",
+    "meaning": "môi trường sống",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 233,
+    "word": "extinct",
+    "phonetic": "",
+    "meaning": "tuyệt chủng",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 234,
+    "word": "ecosystem",
+    "phonetic": "",
+    "meaning": "hệ sinh thái",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 235,
+    "word": "conservation",
+    "phonetic": "",
+    "meaning": "sự bảo tồn",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": ""
+  }
+]
