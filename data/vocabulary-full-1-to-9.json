@@ -1,0 +1,2999 @@
+[
+  {
+    "id": 1,
+    "word": "outlook",
+    "phonetic": "",
+    "meaning": "quan điểm sống",
+    "topic": "Unit 1",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 2,
+    "word": "behavior",
+    "phonetic": "",
+    "meaning": "hành vi",
+    "topic": "Unit 1",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 3,
+    "word": "realist",
+    "phonetic": "",
+    "meaning": "người thực tế",
+    "topic": "Unit 1",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 4,
+    "word": "pessimist",
+    "phonetic": "",
+    "meaning": "người bi quan",
+    "topic": "Unit 1",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 5,
+    "word": "stomachache",
+    "phonetic": "",
+    "meaning": "đau bụng",
+    "topic": "Unit 1",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 6,
+    "word": "thought",
+    "phonetic": "",
+    "meaning": "sự suy nghĩ",
+    "topic": "Unit 1",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 7,
+    "word": "probably",
+    "phonetic": "",
+    "meaning": "có lẽ là",
+    "topic": "Unit 1",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 8,
+    "word": "take some medicine",
+    "phonetic": "",
+    "meaning": "uống thuốc",
+    "topic": "Unit 1",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 9,
+    "word": "apply for",
+    "phonetic": "",
+    "meaning": "nộp đơn xin",
+    "topic": "Unit 1",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 10,
+    "word": "guess",
+    "phonetic": "",
+    "meaning": "đoán, cho rằng",
+    "topic": "Unit 1",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 11,
+    "word": "respect",
+    "phonetic": "",
+    "meaning": "tôn trọng",
+    "topic": "Unit 1",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 12,
+    "word": "unexpectedly",
+    "phonetic": "",
+    "meaning": "một cách không mong đợi",
+    "topic": "Unit 1",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 13,
+    "word": "relative",
+    "phonetic": "",
+    "meaning": "người bà con",
+    "topic": "Unit 1",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 14,
+    "word": "surprise",
+    "phonetic": "",
+    "meaning": "gây ngạc nhiên",
+    "topic": "Unit 1",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 15,
+    "word": "salesperson",
+    "phonetic": "",
+    "meaning": "người bán hàng tiếp thị",
+    "topic": "Unit 1",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 16,
+    "word": "criminal",
+    "phonetic": "",
+    "meaning": "tên tội phạm",
+    "topic": "Unit 1",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 17,
+    "word": "get a promotion",
+    "phonetic": "",
+    "meaning": "thăng chức",
+    "topic": "Unit 1",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 18,
+    "word": "raise",
+    "phonetic": "",
+    "meaning": "việc được tăng lương",
+    "topic": "Unit 1",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 19,
+    "word": "socialize",
+    "phonetic": "",
+    "meaning": "giao tế, hòa đồng",
+    "topic": "Unit 1",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 20,
+    "word": "from time to time",
+    "phonetic": "",
+    "meaning": "thỉnh thoảng",
+    "topic": "Unit 1",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 21,
+    "word": "news",
+    "phonetic": "",
+    "meaning": "tin tức",
+    "topic": "Unit 1",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 22,
+    "word": "crime",
+    "phonetic": "",
+    "meaning": "tội ác",
+    "topic": "Unit 1",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 23,
+    "word": "disaster",
+    "phonetic": "",
+    "meaning": "thảm họa",
+    "topic": "Unit 1",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 24,
+    "word": "realize",
+    "phonetic": "",
+    "meaning": "nhận ra",
+    "topic": "Unit 1",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 25,
+    "word": "positive",
+    "phonetic": "",
+    "meaning": "tích cực",
+    "topic": "Unit 1",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 26,
+    "word": "negative",
+    "phonetic": "",
+    "meaning": "tiêu cực",
+    "topic": "Unit 1",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 27,
+    "word": "mosquito",
+    "phonetic": "",
+    "meaning": "con muỗi",
+    "topic": "Unit 1",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 28,
+    "word": "as a matter of fact",
+    "phonetic": "",
+    "meaning": "thật vậy",
+    "topic": "Unit 1",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 29,
+    "word": "global warming",
+    "phonetic": "",
+    "meaning": "nóng lên toàn cầu",
+    "topic": "Unit 1",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 30,
+    "word": "suppose",
+    "phonetic": "",
+    "meaning": "cho rằng",
+    "topic": "Unit 1",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 31,
+    "word": "it's just a matter of time",
+    "phonetic": "",
+    "meaning": "chỉ là vấn đề thời gian",
+    "topic": "Unit 1",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 32,
+    "word": "scary",
+    "phonetic": "",
+    "meaning": "đáng ghê sợ",
+    "topic": "Unit 1",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 33,
+    "word": "scared",
+    "phonetic": "",
+    "meaning": "sợ hãi",
+    "topic": "Unit 1",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 34,
+    "word": "come down with",
+    "phonetic": "",
+    "meaning": "mắc phải căn bệnh",
+    "topic": "Unit 1",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 35,
+    "word": "pretty rare",
+    "phonetic": "",
+    "meaning": "khá hiếm",
+    "topic": "Unit 1",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 36,
+    "word": "part of life",
+    "phonetic": "",
+    "meaning": "một phần của cuộc sống",
+    "topic": "Unit 1",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 37,
+    "word": "you've got to roll with the punches",
+    "phonetic": "",
+    "meaning": "bạn phải chấp nhận đương đầu với khó khăn",
+    "topic": "Unit 1",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 38,
+    "word": "you're just a sitting duck",
+    "phonetic": "",
+    "meaning": "bạn chỉ chấp nhận mà không thể làm gì để bảo vệ bản thân",
+    "topic": "Unit 1",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 39,
+    "word": "long sleeves",
+    "phonetic": "",
+    "meaning": "áo dài tay",
+    "topic": "Unit 1",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 40,
+    "word": "better safe than sorry",
+    "phonetic": "",
+    "meaning": "thà an toàn còn hơn hối tiếc",
+    "topic": "Unit 1",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 41,
+    "word": "seem",
+    "phonetic": "",
+    "meaning": "dường như",
+    "topic": "Unit 1",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 42,
+    "word": "bother",
+    "phonetic": "",
+    "meaning": "gây phiền toái",
+    "topic": "Unit 1",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 43,
+    "word": "easygoing",
+    "phonetic": "",
+    "meaning": "dễ tính",
+    "topic": "Unit 1",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 44,
+    "word": "waste",
+    "phonetic": "",
+    "meaning": "lãng phí",
+    "topic": "Unit 1",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 45,
+    "word": "get a lot done",
+    "phonetic": "",
+    "meaning": "làm xong được nhiều việc",
+    "topic": "Unit 1",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 46,
+    "word": "hardworking",
+    "phonetic": "",
+    "meaning": "chăm chỉ",
+    "topic": "Unit 1",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 47,
+    "word": "aware of",
+    "phonetic": "",
+    "meaning": "nhận thức về",
+    "topic": "Unit 1",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 48,
+    "word": "need",
+    "phonetic": "",
+    "meaning": "nhu cầu",
+    "topic": "Unit 1",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 49,
+    "word": "champion",
+    "phonetic": "",
+    "meaning": "nhà vô địch",
+    "topic": "Unit 1",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 50,
+    "word": "modest",
+    "phonetic": "",
+    "meaning": "khiêm tốn",
+    "topic": "Unit 1",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 51,
+    "word": "shy",
+    "phonetic": "",
+    "meaning": "rụt rè, nhút nhát",
+    "topic": "Unit 1",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 52,
+    "word": "outgoing",
+    "phonetic": "",
+    "meaning": "hướng ngoại",
+    "topic": "Unit 1",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 53,
+    "word": "reliable",
+    "phonetic": "",
+    "meaning": "đáng tin cậy",
+    "topic": "Unit 1",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 54,
+    "word": "serious",
+    "phonetic": "",
+    "meaning": "nghiêm túc",
+    "topic": "Unit 1",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 55,
+    "word": "talkative",
+    "phonetic": "",
+    "meaning": "nói nhiều",
+    "topic": "Unit 1",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 56,
+    "word": "polite",
+    "phonetic": "",
+    "meaning": "lịch sự",
+    "topic": "Unit 1",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 57,
+    "word": "impolite",
+    "phonetic": "",
+    "meaning": "mất lịch sự",
+    "topic": "Unit 1",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 58,
+    "word": "punctual",
+    "phonetic": "",
+    "meaning": "đúng giờ",
+    "topic": "Unit 1",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 59,
+    "word": "rude",
+    "phonetic": "",
+    "meaning": "thô lỗ",
+    "topic": "Unit 1",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 60,
+    "word": "friendly",
+    "phonetic": "",
+    "meaning": "thân thiện",
+    "topic": "Unit 1",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 61,
+    "word": "unfriendly",
+    "phonetic": "",
+    "meaning": "không thân thiện",
+    "topic": "Unit 1",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 62,
+    "word": "liberal",
+    "phonetic": "",
+    "meaning": "tự do, phóng khoáng",
+    "topic": "Unit 1",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 63,
+    "word": "conservative",
+    "phonetic": "",
+    "meaning": "bảo thủ",
+    "topic": "Unit 1",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 64,
+    "word": "interesting",
+    "phonetic": "",
+    "meaning": "thú vị",
+    "topic": "Unit 1",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 65,
+    "word": "intelligent",
+    "phonetic": "",
+    "meaning": "thông minh",
+    "topic": "Unit 1",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 66,
+    "word": "independent",
+    "phonetic": "",
+    "meaning": "tự lập",
+    "topic": "Unit 1",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 67,
+    "word": "purpose",
+    "phonetic": "",
+    "meaning": "mục đích",
+    "topic": "Unit 1",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 68,
+    "word": "encourage",
+    "phonetic": "",
+    "meaning": "khuyến khích, động viên",
+    "topic": "Unit 1",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 69,
+    "word": "roommate",
+    "phonetic": "",
+    "meaning": "bạn cùng phòng",
+    "topic": "Unit 1",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 70,
+    "word": "do the chores",
+    "phonetic": "",
+    "meaning": "làm việc nhà",
+    "topic": "Unit 1",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 71,
+    "word": "shop for groceries",
+    "phonetic": "",
+    "meaning": "mua đồ tạp hóa",
+    "topic": "Unit 1",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 72,
+    "word": "pull one's weight",
+    "phonetic": "",
+    "meaning": "làm tròn trách nhiệm",
+    "topic": "Unit 1",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 73,
+    "word": "musical memories",
+    "phonetic": "",
+    "meaning": "ký ức âm nhạc",
+    "topic": "Unit 2",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 74,
+    "word": "danceable beat",
+    "phonetic": "",
+    "meaning": "nhịp có thể khiêu vũ",
+    "topic": "Unit 2",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 75,
+    "word": "catchy",
+    "phonetic": "",
+    "meaning": "quyến rũ, dễ nhớ",
+    "topic": "Unit 2",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 76,
+    "word": "unforgettable",
+    "phonetic": "",
+    "meaning": "không thể quên",
+    "topic": "Unit 2",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 77,
+    "word": "annoying",
+    "phonetic": "",
+    "meaning": "gây phiền toái",
+    "topic": "Unit 2",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 78,
+    "word": "melody",
+    "phonetic": "",
+    "meaning": "giai điệu",
+    "topic": "Unit 2",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 79,
+    "word": "drive you crazy",
+    "phonetic": "",
+    "meaning": "khiến bạn phát điên",
+    "topic": "Unit 2",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 80,
+    "word": "moving lyrics",
+    "phonetic": "",
+    "meaning": "lời bài hát cảm động",
+    "topic": "Unit 2",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 81,
+    "word": "get emotional",
+    "phonetic": "",
+    "meaning": "trở nên xúc động",
+    "topic": "Unit 2",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 82,
+    "word": "innovative",
+    "phonetic": "",
+    "meaning": "sáng tạo, mới mẻ",
+    "topic": "Unit 2",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 83,
+    "word": "blow you away",
+    "phonetic": "",
+    "meaning": "khiến bạn ngạc nhiên",
+    "topic": "Unit 2",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 84,
+    "word": "extraordinary",
+    "phonetic": "",
+    "meaning": "phi thường",
+    "topic": "Unit 2",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 85,
+    "word": "top-notch",
+    "phonetic": "",
+    "meaning": "hàng đầu",
+    "topic": "Unit 2",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 86,
+    "word": "talented",
+    "phonetic": "",
+    "meaning": "có tài năng",
+    "topic": "Unit 2",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 87,
+    "word": "awesome",
+    "phonetic": "",
+    "meaning": "tuyệt vời",
+    "topic": "Unit 2",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 88,
+    "word": "hard to please",
+    "phonetic": "",
+    "meaning": "khó chiều lòng",
+    "topic": "Unit 2",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 89,
+    "word": "right up your alley",
+    "phonetic": "",
+    "meaning": "đúng ngay ý thích của bạn",
+    "topic": "Unit 2",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 90,
+    "word": "exhibit",
+    "phonetic": "",
+    "meaning": "buổi triển lãm",
+    "topic": "Unit 2",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 91,
+    "word": "museum",
+    "phonetic": "",
+    "meaning": "bảo tàng",
+    "topic": "Unit 2",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 92,
+    "word": "gallery",
+    "phonetic": "",
+    "meaning": "phòng trưng bày",
+    "topic": "Unit 2",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 93,
+    "word": "live theater",
+    "phonetic": "",
+    "meaning": "kịch diễn trực tiếp",
+    "topic": "Unit 2",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 94,
+    "word": "excellent",
+    "phonetic": "",
+    "meaning": "xuất sắc",
+    "topic": "Unit 2",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 95,
+    "word": "productive",
+    "phonetic": "",
+    "meaning": "có năng suất",
+    "topic": "Unit 2",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 96,
+    "word": "sentimental",
+    "phonetic": "",
+    "meaning": "sến sưa, lãng mạn",
+    "topic": "Unit 2",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 97,
+    "word": "commercial",
+    "phonetic": "",
+    "meaning": "mang tính thương mại",
+    "topic": "Unit 2",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 98,
+    "word": "dated",
+    "phonetic": "",
+    "meaning": "lỗi thời",
+    "topic": "Unit 2",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 99,
+    "word": "repetitive",
+    "phonetic": "",
+    "meaning": "lặp đi lặp lại",
+    "topic": "Unit 2",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 100,
+    "word": "gifted",
+    "phonetic": "",
+    "meaning": "có tài năng",
+    "topic": "Unit 2",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 101,
+    "word": "energetic",
+    "phonetic": "",
+    "meaning": "năng động",
+    "topic": "Unit 2",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 102,
+    "word": "imaginative",
+    "phonetic": "",
+    "meaning": "có óc tưởng tượng",
+    "topic": "Unit 2",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 103,
+    "word": "passionate",
+    "phonetic": "",
+    "meaning": "đam mê",
+    "topic": "Unit 2",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 104,
+    "word": "eccentric",
+    "phonetic": "",
+    "meaning": "lập dị",
+    "topic": "Unit 2",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 105,
+    "word": "moody",
+    "phonetic": "",
+    "meaning": "thất thường",
+    "topic": "Unit 2",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 106,
+    "word": "genius",
+    "phonetic": "",
+    "meaning": "thiên tài",
+    "topic": "Unit 2",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 107,
+    "word": "compose",
+    "phonetic": "",
+    "meaning": "sáng tác",
+    "topic": "Unit 2",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 108,
+    "word": "brilliant",
+    "phonetic": "",
+    "meaning": "xuất sắc, thông minh",
+    "topic": "Unit 2",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 109,
+    "word": "unique",
+    "phonetic": "",
+    "meaning": "độc đáo",
+    "topic": "Unit 2",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 110,
+    "word": "finance",
+    "phonetic": "",
+    "meaning": "tài chính",
+    "topic": "Unit 3",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 111,
+    "word": "spending habit",
+    "phonetic": "",
+    "meaning": "thói quen chi tiêu",
+    "topic": "Unit 3",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 112,
+    "word": "latest",
+    "phonetic": "",
+    "meaning": "gần đây nhất",
+    "topic": "Unit 3",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 113,
+    "word": "stand in line",
+    "phonetic": "",
+    "meaning": "đứng xếp hàng",
+    "topic": "Unit 3",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 114,
+    "word": "compare",
+    "phonetic": "",
+    "meaning": "so sánh",
+    "topic": "Unit 3",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 115,
+    "word": "price",
+    "phonetic": "",
+    "meaning": "giá cả",
+    "topic": "Unit 3",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 116,
+    "word": "after a while",
+    "phonetic": "",
+    "meaning": "sau một khoảng thời gian",
+    "topic": "Unit 3",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 117,
+    "word": "short on cash",
+    "phonetic": "",
+    "meaning": "thiếu tiền",
+    "topic": "Unit 3",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 118,
+    "word": "afford",
+    "phonetic": "",
+    "meaning": "có khả năng chi trả",
+    "topic": "Unit 3",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 119,
+    "word": "fix",
+    "phonetic": "",
+    "meaning": "sửa chữa",
+    "topic": "Unit 3",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 120,
+    "word": "fancy",
+    "phonetic": "",
+    "meaning": "sang trọng, tuyệt vời",
+    "topic": "Unit 3",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 121,
+    "word": "credit card",
+    "phonetic": "",
+    "meaning": "thẻ tín dụng",
+    "topic": "Unit 3",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 122,
+    "word": "priority",
+    "phonetic": "",
+    "meaning": "sự ưu tiên",
+    "topic": "Unit 3",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 123,
+    "word": "budget",
+    "phonetic": "",
+    "meaning": "kế hoạch chi tiêu",
+    "topic": "Unit 3",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 124,
+    "word": "salary",
+    "phonetic": "",
+    "meaning": "tiền lương",
+    "topic": "Unit 3",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 125,
+    "word": "loan",
+    "phonetic": "",
+    "meaning": "khoản vay",
+    "topic": "Unit 3",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 126,
+    "word": "pay off",
+    "phonetic": "",
+    "meaning": "trả hết nợ",
+    "topic": "Unit 3",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 127,
+    "word": "financially independent",
+    "phonetic": "",
+    "meaning": "độc lập tài chính",
+    "topic": "Unit 3",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 128,
+    "word": "retire",
+    "phonetic": "",
+    "meaning": "nghỉ hưu",
+    "topic": "Unit 3",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 129,
+    "word": "owe",
+    "phonetic": "",
+    "meaning": "mắc nợ",
+    "topic": "Unit 3",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 130,
+    "word": "debt",
+    "phonetic": "",
+    "meaning": "nợ",
+    "topic": "Unit 3",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 131,
+    "word": "emergency",
+    "phonetic": "",
+    "meaning": "trường hợp khẩn cấp",
+    "topic": "Unit 3",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 132,
+    "word": "thrifty",
+    "phonetic": "",
+    "meaning": "tiết kiệm",
+    "topic": "Unit 3",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 133,
+    "word": "cheapskate",
+    "phonetic": "",
+    "meaning": "người keo kiệt",
+    "topic": "Unit 3",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 134,
+    "word": "moderation",
+    "phonetic": "",
+    "meaning": "chừng mực",
+    "topic": "Unit 3",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 135,
+    "word": "proud",
+    "phonetic": "",
+    "meaning": "tự hào",
+    "topic": "Unit 3",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 136,
+    "word": "remorse",
+    "phonetic": "",
+    "meaning": "hối hận",
+    "topic": "Unit 3",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 137,
+    "word": "personal style",
+    "phonetic": "",
+    "meaning": "phong cách cá nhân",
+    "topic": "Unit 4",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 138,
+    "word": "go for a trendy look",
+    "phonetic": "",
+    "meaning": "theo xu hướng thời trang",
+    "topic": "Unit 4",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 139,
+    "word": "be in style",
+    "phonetic": "",
+    "meaning": "hợp phong cách",
+    "topic": "Unit 4",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 140,
+    "word": "elegant",
+    "phonetic": "",
+    "meaning": "thanh lịch",
+    "topic": "Unit 4",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 141,
+    "word": "well-made",
+    "phonetic": "",
+    "meaning": "được may đẹp",
+    "topic": "Unit 4",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 142,
+    "word": "individuality",
+    "phonetic": "",
+    "meaning": "tính cá nhân",
+    "topic": "Unit 4",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 143,
+    "word": "loud colors",
+    "phonetic": "",
+    "meaning": "màu sắc nổi bật",
+    "topic": "Unit 4",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 144,
+    "word": "attract attention",
+    "phonetic": "",
+    "meaning": "thu hút sự chú ý",
+    "topic": "Unit 4",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 145,
+    "word": "subdued colors",
+    "phonetic": "",
+    "meaning": "màu sắc trầm",
+    "topic": "Unit 4",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 146,
+    "word": "go out of style",
+    "phonetic": "",
+    "meaning": "lỗi thời",
+    "topic": "Unit 4",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 147,
+    "word": "funky",
+    "phonetic": "",
+    "meaning": "kỳ quặc, cá tính",
+    "topic": "Unit 4",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 148,
+    "word": "weird",
+    "phonetic": "",
+    "meaning": "kỳ dị",
+    "topic": "Unit 4",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 149,
+    "word": "casual",
+    "phonetic": "",
+    "meaning": "bình dân",
+    "topic": "Unit 4",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 150,
+    "word": "formal",
+    "phonetic": "",
+    "meaning": "trang trọng",
+    "topic": "Unit 4",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 151,
+    "word": "informal",
+    "phonetic": "",
+    "meaning": "không trang trọng",
+    "topic": "Unit 4",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 152,
+    "word": "flashy",
+    "phonetic": "",
+    "meaning": "lấp lánh, phô trương",
+    "topic": "Unit 4",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 153,
+    "word": "immodest",
+    "phonetic": "",
+    "meaning": "hở hang",
+    "topic": "Unit 4",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 154,
+    "word": "frumpy",
+    "phonetic": "",
+    "meaning": "rộng thùng thình và lỗi thời",
+    "topic": "Unit 4",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 155,
+    "word": "baggy",
+    "phonetic": "",
+    "meaning": "rộng thùng thình",
+    "topic": "Unit 4",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 156,
+    "word": "self-respect",
+    "phonetic": "",
+    "meaning": "tự trọng",
+    "topic": "Unit 4",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 157,
+    "word": "blazer",
+    "phonetic": "",
+    "meaning": "áo vest",
+    "topic": "Unit 4",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 158,
+    "word": "sweater",
+    "phonetic": "",
+    "meaning": "áo len",
+    "topic": "Unit 4",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 159,
+    "word": "turtleneck",
+    "phonetic": "",
+    "meaning": "áo cổ lọ",
+    "topic": "Unit 4",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 160,
+    "word": "cardigan",
+    "phonetic": "",
+    "meaning": "áo khoác len",
+    "topic": "Unit 4",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 161,
+    "word": "evening gown",
+    "phonetic": "",
+    "meaning": "áo dạ hội",
+    "topic": "Unit 4",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 162,
+    "word": "suit",
+    "phonetic": "",
+    "meaning": "bộ vest",
+    "topic": "Unit 4",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 163,
+    "word": "trend",
+    "phonetic": "",
+    "meaning": "xu hướng",
+    "topic": "Unit 4",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 164,
+    "word": "concept",
+    "phonetic": "",
+    "meaning": "khái niệm",
+    "topic": "Unit 4",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 165,
+    "word": "victim",
+    "phonetic": "",
+    "meaning": "nạn nhân",
+    "topic": "Unit 5",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 166,
+    "word": "urban crime",
+    "phonetic": "",
+    "meaning": "tội phạm đô thị",
+    "topic": "Unit 5",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 167,
+    "word": "densely-populated",
+    "phonetic": "",
+    "meaning": "đông dân cư",
+    "topic": "Unit 5",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 168,
+    "word": "urban area",
+    "phonetic": "",
+    "meaning": "khu đô thị",
+    "topic": "Unit 5",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 169,
+    "word": "suburb",
+    "phonetic": "",
+    "meaning": "vùng ngoại ô",
+    "topic": "Unit 5",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 170,
+    "word": "rural area",
+    "phonetic": "",
+    "meaning": "miền quê, nông thôn",
+    "topic": "Unit 5",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 171,
+    "word": "bustling",
+    "phonetic": "",
+    "meaning": "hối hả, nhộn nhịp",
+    "topic": "Unit 5",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 172,
+    "word": "secure",
+    "phonetic": "",
+    "meaning": "an ninh",
+    "topic": "Unit 5",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 173,
+    "word": "amenities",
+    "phonetic": "",
+    "meaning": "tiện nghi",
+    "topic": "Unit 5",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 174,
+    "word": "settle in",
+    "phonetic": "",
+    "meaning": "an cư",
+    "topic": "Unit 5",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 175,
+    "word": "bumper-to-bumper traffic",
+    "phonetic": "",
+    "meaning": "giao thông tắc nghẽn",
+    "topic": "Unit 5",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 176,
+    "word": "a mixed blessing",
+    "phonetic": "",
+    "meaning": "vừa may vừa rủi",
+    "topic": "Unit 5",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 177,
+    "word": "courteous",
+    "phonetic": "",
+    "meaning": "lịch sự",
+    "topic": "Unit 5",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 178,
+    "word": "rational",
+    "phonetic": "",
+    "meaning": "hợp lý",
+    "topic": "Unit 5",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 179,
+    "word": "mature",
+    "phonetic": "",
+    "meaning": "trưởng thành",
+    "topic": "Unit 5",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 180,
+    "word": "considerate",
+    "phonetic": "",
+    "meaning": "ân cần, chu đáo",
+    "topic": "Unit 5",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 181,
+    "word": "vulnerable",
+    "phonetic": "",
+    "meaning": "dễ bị tổn thương",
+    "topic": "Unit 5",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 182,
+    "word": "valuables",
+    "phonetic": "",
+    "meaning": "đồ quý giá",
+    "topic": "Unit 5",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 183,
+    "word": "theft",
+    "phonetic": "",
+    "meaning": "trộm cắp",
+    "topic": "Unit 5",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 184,
+    "word": "pickpocket",
+    "phonetic": "",
+    "meaning": "tên móc túi",
+    "topic": "Unit 5",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 185,
+    "word": "mugger",
+    "phonetic": "",
+    "meaning": "kẻ cướp giật",
+    "topic": "Unit 5",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 186,
+    "word": "burglar",
+    "phonetic": "",
+    "meaning": "tên trộm",
+    "topic": "Unit 5",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 187,
+    "word": "break in",
+    "phonetic": "",
+    "meaning": "đột nhập",
+    "topic": "Unit 5",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 188,
+    "word": "precautions",
+    "phonetic": "",
+    "meaning": "biện pháp đề phòng",
+    "topic": "Unit 5",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 189,
+    "word": "wary",
+    "phonetic": "",
+    "meaning": "thận trọng, cảnh giác",
+    "topic": "Unit 5",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 190,
+    "word": "suspicious",
+    "phonetic": "",
+    "meaning": "khả nghi",
+    "topic": "Unit 5",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 191,
+    "word": "invertebrates",
+    "phonetic": "",
+    "meaning": "động vật không xương sống",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 192,
+    "word": "amphibians",
+    "phonetic": "",
+    "meaning": "động vật lưỡng cư",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 193,
+    "word": "salamander",
+    "phonetic": "",
+    "meaning": "con kỳ giông",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 194,
+    "word": "reptiles",
+    "phonetic": "",
+    "meaning": "loài bò sát",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 195,
+    "word": "disgusting",
+    "phonetic": "",
+    "meaning": "gớm ghiếc",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 196,
+    "word": "frightening",
+    "phonetic": "",
+    "meaning": "đáng sợ",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 197,
+    "word": "feel sorry for",
+    "phonetic": "",
+    "meaning": "cảm thấy tội nghiệp",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 198,
+    "word": "kitten",
+    "phonetic": "",
+    "meaning": "con mèo con",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 199,
+    "word": "put up with",
+    "phonetic": "",
+    "meaning": "chịu đựng",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 200,
+    "word": "fool around",
+    "phonetic": "",
+    "meaning": "đùa giỡn",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 201,
+    "word": "get too rough",
+    "phonetic": "",
+    "meaning": "trở nên hung dữ",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 202,
+    "word": "coop up",
+    "phonetic": "",
+    "meaning": "nhốt vào không gian hẹp",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 203,
+    "word": "cage",
+    "phonetic": "",
+    "meaning": "cái lồng / chuồng",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 204,
+    "word": "mammal",
+    "phonetic": "",
+    "meaning": "động vật có vú",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 205,
+    "word": "humane",
+    "phonetic": "",
+    "meaning": "nhân đạo",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 206,
+    "word": "assume",
+    "phonetic": "",
+    "meaning": "giả định",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 207,
+    "word": "in captivity",
+    "phonetic": "",
+    "meaning": "trong tình trạng nuôi nhốt",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 208,
+    "word": "treat",
+    "phonetic": "",
+    "meaning": "đối xử",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 209,
+    "word": "mistreat",
+    "phonetic": "",
+    "meaning": "ngược đãi",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 210,
+    "word": "get fed up",
+    "phonetic": "",
+    "meaning": "bực mình, chán",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 211,
+    "word": "hunting",
+    "phonetic": "",
+    "meaning": "săn bắn",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 212,
+    "word": "bullfighting",
+    "phonetic": "",
+    "meaning": "đấu bò",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 213,
+    "word": "defenseless animals",
+    "phonetic": "",
+    "meaning": "động vật không có sức phản kháng",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 214,
+    "word": "ban",
+    "phonetic": "",
+    "meaning": "cấm",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 215,
+    "word": "ridiculous",
+    "phonetic": "",
+    "meaning": "lố bịch",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 216,
+    "word": "inhumane treatment",
+    "phonetic": "",
+    "meaning": "đối xử vô nhân đạo",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 217,
+    "word": "justify",
+    "phonetic": "",
+    "meaning": "biện minh",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 218,
+    "word": "slaughter",
+    "phonetic": "",
+    "meaning": "giết mổ",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 219,
+    "word": "prohibit",
+    "phonetic": "",
+    "meaning": "cấm",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 220,
+    "word": "preserve",
+    "phonetic": "",
+    "meaning": "bảo tồn",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 221,
+    "word": "playful",
+    "phonetic": "",
+    "meaning": "hay đùa nghịch",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 222,
+    "word": "affectionate",
+    "phonetic": "",
+    "meaning": "tình cảm",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 223,
+    "word": "good-natured",
+    "phonetic": "",
+    "meaning": "hiền lành",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 224,
+    "word": "devoted",
+    "phonetic": "",
+    "meaning": "tận tụy",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 225,
+    "word": "protective",
+    "phonetic": "",
+    "meaning": "bảo vệ",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 226,
+    "word": "destructive",
+    "phonetic": "",
+    "meaning": "hay phá phách",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 227,
+    "word": "predators",
+    "phonetic": "",
+    "meaning": "động vật săn mồi",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 228,
+    "word": "prey",
+    "phonetic": "",
+    "meaning": "con mồi",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 229,
+    "word": "instinct",
+    "phonetic": "",
+    "meaning": "bản năng",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 230,
+    "word": "endangered animals",
+    "phonetic": "",
+    "meaning": "động vật có nguy cơ tuyệt chủng",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 231,
+    "word": "biodiversity",
+    "phonetic": "",
+    "meaning": "đa dạng sinh học",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 232,
+    "word": "habitats",
+    "phonetic": "",
+    "meaning": "môi trường sống",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 233,
+    "word": "extinct",
+    "phonetic": "",
+    "meaning": "tuyệt chủng",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 234,
+    "word": "ecosystem",
+    "phonetic": "",
+    "meaning": "hệ sinh thái",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 235,
+    "word": "conservation",
+    "phonetic": "",
+    "meaning": "sự bảo tồn",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 236,
+    "word": "feel blue",
+    "phonetic": "",
+    "meaning": "cảm thấy buồn",
+    "topic": "Unit 7",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 237,
+    "word": "cheer up",
+    "phonetic": "",
+    "meaning": "làm cho vui lên",
+    "topic": "Unit 7",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 238,
+    "word": "splurge",
+    "phonetic": "",
+    "meaning": "tiêu xài hoang phí",
+    "topic": "Unit 7",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 239,
+    "word": "go a little overboard",
+    "phonetic": "",
+    "meaning": "làm hơi quá mức",
+    "topic": "Unit 7",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 240,
+    "word": "pass up",
+    "phonetic": "",
+    "meaning": "bỏ lỡ cơ hội",
+    "topic": "Unit 7",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 241,
+    "word": "terrific",
+    "phonetic": "",
+    "meaning": "tuyệt vời",
+    "topic": "Unit 7",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 242,
+    "word": "endorse a product",
+    "phonetic": "",
+    "meaning": "quảng cáo / đại diện sản phẩm",
+    "topic": "Unit 7",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 243,
+    "word": "risk-free",
+    "phonetic": "",
+    "meaning": "không rủi ro",
+    "topic": "Unit 7",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 244,
+    "word": "wishful thinking",
+    "phonetic": "",
+    "meaning": "sự mơ tưởng",
+    "topic": "Unit 7",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 245,
+    "word": "browse",
+    "phonetic": "",
+    "meaning": "xem lướt qua",
+    "topic": "Unit 7",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 246,
+    "word": "bargain hunt",
+    "phonetic": "",
+    "meaning": "săn hàng giá rẻ",
+    "topic": "Unit 7",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 247,
+    "word": "comparison shop",
+    "phonetic": "",
+    "meaning": "so sánh giá",
+    "topic": "Unit 7",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 248,
+    "word": "window shop",
+    "phonetic": "",
+    "meaning": "ngắm hàng không mua",
+    "topic": "Unit 7",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 249,
+    "word": "pricey",
+    "phonetic": "",
+    "meaning": "đắt tiền",
+    "topic": "Unit 7",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 250,
+    "word": "affordable",
+    "phonetic": "",
+    "meaning": "giá phải chăng",
+    "topic": "Unit 7",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 251,
+    "word": "a bargain",
+    "phonetic": "",
+    "meaning": "món hời",
+    "topic": "Unit 7",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 252,
+    "word": "cost an arm and a leg",
+    "phonetic": "",
+    "meaning": "rất đắt",
+    "topic": "Unit 7",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 253,
+    "word": "obnoxious",
+    "phonetic": "",
+    "meaning": "khó chịu",
+    "topic": "Unit 7",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 254,
+    "word": "billboard",
+    "phonetic": "",
+    "meaning": "biển quảng cáo",
+    "topic": "Unit 7",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 255,
+    "word": "upsetting",
+    "phonetic": "",
+    "meaning": "làm buồn / khó chịu",
+    "topic": "Unit 7",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 256,
+    "word": "prime time",
+    "phonetic": "",
+    "meaning": "giờ vàng",
+    "topic": "Unit 7",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 257,
+    "word": "telemarketers",
+    "phonetic": "",
+    "meaning": "người tiếp thị qua điện thoại",
+    "topic": "Unit 7",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 258,
+    "word": "resent",
+    "phonetic": "",
+    "meaning": "bực tức",
+    "topic": "Unit 7",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 259,
+    "word": "compulsive shopping",
+    "phonetic": "",
+    "meaning": "nghiện mua sắm",
+    "topic": "Unit 7",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 260,
+    "word": "pastime",
+    "phonetic": "",
+    "meaning": "trò tiêu khiển",
+    "topic": "Unit 7",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 261,
+    "word": "harmless",
+    "phonetic": "",
+    "meaning": "vô hại",
+    "topic": "Unit 7",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 262,
+    "word": "out of control",
+    "phonetic": "",
+    "meaning": "ngoài tầm kiểm soát",
+    "topic": "Unit 7",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 263,
+    "word": "shopaholism",
+    "phonetic": "",
+    "meaning": "chứng nghiện mua sắm",
+    "topic": "Unit 7",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 264,
+    "word": "impulse",
+    "phonetic": "",
+    "meaning": "bốc đồng",
+    "topic": "Unit 7",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 265,
+    "word": "temptation",
+    "phonetic": "",
+    "meaning": "sự cám dỗ",
+    "topic": "Unit 7",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 266,
+    "word": "indulge",
+    "phonetic": "",
+    "meaning": "nuông chiều bản thân",
+    "topic": "Unit 7",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 267,
+    "word": "manipulate",
+    "phonetic": "",
+    "meaning": "thao túng",
+    "topic": "Unit 7",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 268,
+    "word": "imply",
+    "phonetic": "",
+    "meaning": "ngụ ý",
+    "topic": "Unit 7",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 269,
+    "word": "curfews",
+    "phonetic": "",
+    "meaning": "giờ giới nghiêm",
+    "topic": "Unit 8",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 270,
+    "word": "misbehave",
+    "phonetic": "",
+    "meaning": "cư xử không đúng",
+    "topic": "Unit 8",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 271,
+    "word": "be grounded",
+    "phonetic": "",
+    "meaning": "bị cấm túc",
+    "topic": "Unit 8",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 272,
+    "word": "off-limits",
+    "phonetic": "",
+    "meaning": "cấm vào",
+    "topic": "Unit 8",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 273,
+    "word": "patch things up",
+    "phonetic": "",
+    "meaning": "hàn gắn",
+    "topic": "Unit 8",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 274,
+    "word": "split up",
+    "phonetic": "",
+    "meaning": "chia tay / chia rẽ",
+    "topic": "Unit 8",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 275,
+    "word": "out of touch",
+    "phonetic": "",
+    "meaning": "mất liên lạc / lạc hậu",
+    "topic": "Unit 8",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 276,
+    "word": "have a falling out",
+    "phonetic": "",
+    "meaning": "cãi nhau",
+    "topic": "Unit 8",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 277,
+    "word": "go downhill",
+    "phonetic": "",
+    "meaning": "trở nên tệ hơn",
+    "topic": "Unit 8",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 278,
+    "word": "incredible",
+    "phonetic": "",
+    "meaning": "không thể tin được",
+    "topic": "Unit 8",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 279,
+    "word": "hit the nail on the head",
+    "phonetic": "",
+    "meaning": "nói rất đúng",
+    "topic": "Unit 8",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 280,
+    "word": "economical",
+    "phonetic": "",
+    "meaning": "tiết kiệm",
+    "topic": "Unit 8",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 281,
+    "word": "fall apart",
+    "phonetic": "",
+    "meaning": "vỡ vụn",
+    "topic": "Unit 8",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 282,
+    "word": "apparently",
+    "phonetic": "",
+    "meaning": "rõ ràng",
+    "topic": "Unit 8",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 283,
+    "word": "obey",
+    "phonetic": "",
+    "meaning": "vâng lời",
+    "topic": "Unit 8",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 284,
+    "word": "gossip",
+    "phonetic": "",
+    "meaning": "chuyện tán gẫu",
+    "topic": "Unit 8",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 285,
+    "word": "talk behind their backs",
+    "phonetic": "",
+    "meaning": "nói xấu sau lưng",
+    "topic": "Unit 8",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 286,
+    "word": "birthrates",
+    "phonetic": "",
+    "meaning": "tỷ lệ sinh",
+    "topic": "Unit 8",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 287,
+    "word": "life expectancy",
+    "phonetic": "",
+    "meaning": "tuổi thọ trung bình",
+    "topic": "Unit 8",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 288,
+    "word": "generational differences",
+    "phonetic": "",
+    "meaning": "khác biệt thế hệ",
+    "topic": "Unit 8",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 289,
+    "word": "lenient",
+    "phonetic": "",
+    "meaning": "dễ dãi",
+    "topic": "Unit 8",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 290,
+    "word": "overprotective",
+    "phonetic": "",
+    "meaning": "bảo vệ quá mức",
+    "topic": "Unit 8",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 291,
+    "word": "rebellious",
+    "phonetic": "",
+    "meaning": "nổi loạn",
+    "topic": "Unit 8",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 292,
+    "word": "spoiled",
+    "phonetic": "",
+    "meaning": "hư hỏng",
+    "topic": "Unit 8",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 293,
+    "word": "disrespectful",
+    "phonetic": "",
+    "meaning": "bất kính",
+    "topic": "Unit 8",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 294,
+    "word": "troublemaker",
+    "phonetic": "",
+    "meaning": "kẻ gây rối",
+    "topic": "Unit 8",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 295,
+    "word": "generation",
+    "phonetic": "",
+    "meaning": "thế hệ",
+    "topic": "Unit 8",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 296,
+    "word": "aging populations",
+    "phonetic": "",
+    "meaning": "dân số già",
+    "topic": "Unit 8",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 297,
+    "word": "nursing home",
+    "phonetic": "",
+    "meaning": "nhà dưỡng lão",
+    "topic": "Unit 8",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 298,
+    "word": "assist",
+    "phonetic": "",
+    "meaning": "hỗ trợ",
+    "topic": "Unit 8",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 299,
+    "word": "stroke",
+    "phonetic": "",
+    "meaning": "đột quỵ",
+    "topic": "Unit 8",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 300,
+    "word": "diabetes",
+    "phonetic": "",
+    "meaning": "bệnh tiểu đường",
+    "topic": "Unit 8",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 301,
+    "word": "dementia",
+    "phonetic": "",
+    "meaning": "sa sút trí tuệ",
+    "topic": "Unit 8",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 302,
+    "word": "hoaxes",
+    "phonetic": "",
+    "meaning": "trò lừa / chơi khăm",
+    "topic": "Unit 9",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 303,
+    "word": "trustworthiness",
+    "phonetic": "",
+    "meaning": "sự đáng tin cậy",
+    "topic": "Unit 9",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 304,
+    "word": "take a wild guess",
+    "phonetic": "",
+    "meaning": "đoán bừa",
+    "topic": "Unit 9",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 305,
+    "word": "the process of elimination",
+    "phonetic": "",
+    "meaning": "phương pháp loại trừ",
+    "topic": "Unit 9",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 306,
+    "word": "reject",
+    "phonetic": "",
+    "meaning": "từ chối",
+    "topic": "Unit 9",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 307,
+    "word": "mysterious",
+    "phonetic": "",
+    "meaning": "bí ẩn",
+    "topic": "Unit 9",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 308,
+    "word": "vanish without a trace",
+    "phonetic": "",
+    "meaning": "biến mất không dấu vết",
+    "topic": "Unit 9",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 309,
+    "word": "they're barking up the wrong tree",
+    "phonetic": "",
+    "meaning": "hiểu lầm vấn đề",
+    "topic": "Unit 9",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 310,
+    "word": "i'm going out on a limb",
+    "phonetic": "",
+    "meaning": "nói / làm việc không có căn cứ",
+    "topic": "Unit 9",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 311,
+    "word": "take over",
+    "phonetic": "",
+    "meaning": "tiếp quản",
+    "topic": "Unit 9",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 312,
+    "word": "rumor has it that",
+    "phonetic": "",
+    "meaning": "người ta đồn rằng",
+    "topic": "Unit 9",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 313,
+    "word": "far-fetched",
+    "phonetic": "",
+    "meaning": "cường điệu, khó tin",
+    "topic": "Unit 9",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 314,
+    "word": "speculate",
+    "phonetic": "",
+    "meaning": "suy đoán",
+    "topic": "Unit 9",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 315,
+    "word": "remote",
+    "phonetic": "",
+    "meaning": "xa xôi, hẻo lánh",
+    "topic": "Unit 9",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 316,
+    "word": "inhabited",
+    "phonetic": "",
+    "meaning": "có người ở",
+    "topic": "Unit 9",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 317,
+    "word": "theorize",
+    "phonetic": "",
+    "meaning": "đưa ra giả thuyết",
+    "topic": "Unit 9",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 318,
+    "word": "accomplish",
+    "phonetic": "",
+    "meaning": "hoàn thành",
+    "topic": "Unit 9",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 319,
+    "word": "explorer",
+    "phonetic": "",
+    "meaning": "nhà thám hiểm",
+    "topic": "Unit 9",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 320,
+    "word": "aliens",
+    "phonetic": "",
+    "meaning": "người ngoài hành tinh",
+    "topic": "Unit 9",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 321,
+    "word": "revelation",
+    "phonetic": "",
+    "meaning": "sự phát hiện",
+    "topic": "Unit 9",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 322,
+    "word": "capture",
+    "phonetic": "",
+    "meaning": "bắt giữ",
+    "topic": "Unit 9",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 323,
+    "word": "yeti",
+    "phonetic": "",
+    "meaning": "người tuyết",
+    "topic": "Unit 9",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 324,
+    "word": "sightings",
+    "phonetic": "",
+    "meaning": "sự trông thấy",
+    "topic": "Unit 9",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 325,
+    "word": "wreckage",
+    "phonetic": "",
+    "meaning": "đống đổ nát",
+    "topic": "Unit 9",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 326,
+    "word": "conspiracy",
+    "phonetic": "",
+    "meaning": "âm mưu",
+    "topic": "Unit 9",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 327,
+    "word": "top secret",
+    "phonetic": "",
+    "meaning": "tuyệt mật",
+    "topic": "Unit 9",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 328,
+    "word": "witness",
+    "phonetic": "",
+    "meaning": "nhân chứng",
+    "topic": "Unit 9",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 329,
+    "word": "investigate",
+    "phonetic": "",
+    "meaning": "điều tra",
+    "topic": "Unit 9",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 330,
+    "word": "debunk",
+    "phonetic": "",
+    "meaning": "vạch trần",
+    "topic": "Unit 9",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 331,
+    "word": "skeptics",
+    "phonetic": "",
+    "meaning": "người hoài nghi",
+    "topic": "Unit 9",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 332,
+    "word": "skeptical",
+    "phonetic": "",
+    "meaning": "hoài nghi",
+    "topic": "Unit 9",
+    "example": "",
+    "example_vi": ""
+  },
+  {
+    "id": 333,
+    "word": "publicity stunt",
+    "phonetic": "",
+    "meaning": "chiêu trò thu hút chú ý",
+    "topic": "Unit 9",
+    "example": "",
+    "example_vi": ""
+  }
+]
