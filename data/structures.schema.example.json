@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "unit": "Unit 1",
+    "name": "Tên cấu trúc (vd: Tag questions)",
+    "pattern": "Công thức ngắn (vd: Statement, auxiliary + subject?)",
+    "meaning": "Nghĩa / mục đích bằng tiếng Việt",
+    "form": "Dạng đầy đủ hơn của công thức (tuỳ chọn)",
+    "example": "Câu ví dụ tiếng Anh",
+    "example_vi": "Nghĩa câu ví dụ",
+    "usage": "Khi nào dùng (tuỳ chọn)",
+    "notes": "Ghi chú thêm — Summit 1 (tuỳ chọn)"
+  }
+]

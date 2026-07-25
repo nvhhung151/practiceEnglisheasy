@@ -12,6 +12,7 @@
     <nav>
       <a href="index.html">Trang chủ</a>
       <a href="vocabulary.html" class="active">Từ vựng</a>
+      <a href="structures.html">Cấu trúc câu</a>
       <a href="quiz.html">Luyện tập</a>
       <a href="admin.html">Admin</a>
     </nav>
@@ -33,19 +34,13 @@
       <input type="text" id="search-input" placeholder="Tìm từ hoặc nghĩa...">
     </div>
 
-    <!-- List mode -->
     <div id="list-section">
-      <div class="word-list" id="word-list">
-        <!-- JS render -->
-      </div>
+      <div class="word-list" id="word-list"></div>
     </div>
 
-    <!-- Flashcard mode -->
     <div id="flashcard-section" style="display:none;">
       <div class="flashcard-container">
-        <div class="flashcard" id="flashcard" onclick="flipCard()">
-          <!-- JS render -->
-        </div>
+        <div class="flashcard" id="flashcard" onclick="flipCard()"></div>
       </div>
       <div class="flashcard-controls">
         <button class="btn btn-outline" onclick="prevCard()">← Trước</button>
@@ -60,6 +55,8 @@
     English Easy &copy; 2026
   </footer>
 
-  <script src="js/app.js"></script>
+  <script src="js/speak.js?v=6"></script>
+  <script src="js/quiz-manager.js?v=6"></script>
+  <script src="js/app.js?v=6"></script>
 </body>
 </html>

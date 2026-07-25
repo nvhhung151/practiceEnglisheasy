@@ -10,6 +10,7 @@
       display: flex;
       gap: 8px;
       margin-bottom: 20px;
+      flex-wrap: wrap;
     }
     .admin-tabs button {
       padding: 10px 18px;
@@ -26,6 +27,21 @@
     }
     .tab-content { display: none; }
     .tab-content.active { display: block; }
+    .admin-note {
+      background: #f0f9ff;
+      border: 1px solid #bae6fd;
+      border-radius: 12px;
+      padding: 14px 16px;
+      margin-bottom: 16px;
+      color: #0c4a6e;
+      font-size: 0.95rem;
+      line-height: 1.5;
+    }
+    .admin-note code {
+      background: #e0f2fe;
+      padding: 1px 6px;
+      border-radius: 4px;
+    }
   </style>
 </head>
 <body>
@@ -34,39 +50,57 @@
     <nav>
       <a href="index.html">Trang chủ</a>
       <a href="vocabulary.html">Từ vựng</a>
+      <a href="structures.html">Cấu trúc câu</a>
       <a href="quiz.html">Luyện tập</a>
       <a href="admin.html" class="active">Admin</a>
     </nav>
   </header>
 
   <main class="container">
-    <!-- Login -->
     <div id="login-section" class="admin-login">
       <h2>🔐 Đăng nhập Admin</h2>
-      <div class="form-group">
-        <label>Mật khẩu</label>
-        <input type="password" id="admin-password" placeholder="Nhập mật khẩu...">
-      </div>
-      <button id="btn-login" class="btn btn-primary" style="width:100%;">Đăng nhập</button>
+      <form id="login-form" autocomplete="on" onsubmit="return doAdminLogin(event);">
+        <div class="form-group">
+          <label for="admin-password">Mật khẩu</label>
+          <input
+            type="password"
+            id="admin-password"
+            name="admin-password"
+            placeholder="Nhập mật khẩu admin"
+            autocomplete="current-password"
+          >
+        </div>
+        <button type="button" id="btn-login" class="btn btn-primary" style="width:100%;" onclick="return doAdminLogin(event);">
+          Đăng nhập
+        </button>
+      </form>
+      <p id="login-error" style="display:none;margin-top:12px;text-align:center;color:#dc2626;font-weight:600;"></p>
     </div>
 
-    <!-- Admin Panel -->
     <div id="admin-panel" class="admin-panel">
       <div class="page-header">
         <h1>Trang quản trị</h1>
         <button class="btn btn-outline btn-sm" onclick="logout()">Đăng xuất</button>
       </div>
 
-      <div class="admin-tabs">
-        <button class="active" onclick="switchTab('vocab')">Quản lý từ vựng</button>
-        <button onclick="switchTab('quiz')">Quản lý bài tập</button>
+      <div class="admin-note">
+        <strong>Lưu vĩnh viễn trên GitHub:</strong>
+        Các file đã có sẵn trong <code>data/</code> (333 từ + 36 cấu trúc + quiz mẫu). Commit &amp; push là xong.
+        Nếu màn hình trống: bấm <button type="button" class="btn btn-sm btn-primary" style="margin:0 4px;" onclick="resyncAllFromFiles()">Đồng bộ từ file data/</button>
+        hoặc hard refresh (Ctrl+F5).
       </div>
 
-      <!-- ===== TAB TỪ VỰNG ===== -->
+      <div class="admin-tabs">
+        <button class="active" onclick="switchTab('vocab')">Từ vựng</button>
+        <button onclick="switchTab('structures')">Cấu trúc câu</button>
+        <button onclick="switchTab('quiz')">Bài tập (Quiz)</button>
+      </div>
+
+      <!-- TAB TỪ VỰNG -->
       <div id="tab-vocab" class="tab-content active">
         <div class="admin-actions">
-          <button class="btn btn-primary" onclick="openAddModal()">+ Thêm từ mới</button>
-          <button class="btn btn-success" onclick="exportJSON()">⬇ Export JSON</button>
+          <button class="btn btn-primary" onclick="openAddModal()">+ Thêm từ</button>
+          <button class="btn btn-success" onclick="exportJSON()">⬇ Export vocabulary.json</button>
           <label class="btn btn-outline" style="cursor:pointer;">
             ⬆ Import JSON
             <input type="file" accept=".json" style="display:none;" onchange="importJSON(event)">
@@ -75,9 +109,8 @@
             ⬆ Import CSV
             <input type="file" accept=".csv" style="display:none;" onchange="importCSV(event)">
           </label>
-          <button class="btn btn-danger btn-sm" onclick="resetToDefault()">Reset mặc định</button>
+          <button class="btn btn-danger btn-sm" onclick="resetToDefault()">Reset vocab file</button>
         </div>
-
         <div style="overflow-x:auto;">
           <table class="admin-table">
             <thead>
@@ -86,7 +119,7 @@
                 <th>Từ</th>
                 <th>Phiên âm</th>
                 <th>Nghĩa</th>
-                <th>Chủ đề</th>
+                <th>Unit</th>
                 <th>Ví dụ</th>
                 <th>Thao tác</th>
               </tr>
@@ -96,39 +129,115 @@
         </div>
       </div>
 
-      <!-- ===== TAB BÀI TẬP ===== -->
+      <!-- TAB CẤU TRÚC -->
+      <div id="tab-structures" class="tab-content">
+        <div class="admin-actions">
+          <button class="btn btn-primary" onclick="openAddStructureModal()">+ Thêm cấu trúc</button>
+          <button class="btn btn-success" onclick="exportStructuresJSON()">⬇ Export structures.json</button>
+          <label class="btn btn-outline" style="cursor:pointer;">
+            ⬆ Import structures JSON
+            <input type="file" accept=".json" style="display:none;" onchange="importStructuresJSON(event)">
+          </label>
+          <button class="btn btn-danger btn-sm" onclick="resetStructuresDefault()">Reset structures file</button>
+        </div>
+        <p style="color:#64748b;margin-bottom:12px;font-size:0.95rem;">
+          Mẫu schema: <code>data/structures.schema.example.json</code> · Nội dung gợi ý Summit 1 (FPT).
+        </p>
+        <div style="overflow-x:auto;">
+          <table class="admin-table">
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>Unit</th>
+                <th>Tên</th>
+                <th>Pattern</th>
+                <th>Nghĩa</th>
+                <th>Thao tác</th>
+              </tr>
+            </thead>
+            <tbody id="structures-tbody"></tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- TAB QUIZ -->
       <div id="tab-quiz" class="tab-content">
         <div style="background:white; padding:24px; border-radius:14px; margin-bottom:24px; box-shadow:0 2px 12px rgba(0,0,0,0.05);">
-          <h3 style="margin-bottom:16px; color:#0369a1;">Tạo bài tập mới</h3>
-          
+          <h3 style="margin-bottom:8px; color:#0369a1;">Tạo bài tập mới</h3>
+          <p style="color:#64748b; margin-bottom:16px; font-size:0.95rem;">
+            Admin chọn loại bài (từ vựng / cấu trúc), Unit, số câu và thời gian. Người học không tự chỉnh.
+          </p>
+
           <div class="form-group">
             <label>Tên bài tập</label>
-            <input type="text" id="quiz-title" placeholder="Ví dụ: Unit 1 - Ôn tập 15 câu">
+            <input type="text" id="quiz-title" placeholder="Ví dụ: Unit 1 - Cấu trúc 10 câu">
           </div>
 
           <div class="form-group">
-            <label>Chọn chủ đề / Unit</label>
-            <select id="admin-quiz-topic">
-              <option value="">-- Tất cả từ vựng --</option>
+            <label>Loại bài</label>
+            <select id="admin-quiz-type">
+              <option value="vocab">Từ vựng</option>
+              <option value="structure">Cấu trúc câu</option>
             </select>
           </div>
 
           <div class="form-group">
-            <label>Số câu hỏi</label>
-            <input type="number" id="admin-quiz-count" min="1" value="10">
-            <small id="admin-max-info" style="color:#64748b;"></small>
+            <label>Chọn Unit</label>
+            <select id="admin-quiz-topic">
+              <option value="">-- Tất cả --</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label>Số câu hỏi (chọn bao nhiêu câu muốn làm)</label>
+            <p id="admin-max-info" style="color:#64748b; font-size:0.95rem; margin-bottom:8px;">
+              Chọn unit để xem số từ / cấu trúc tối đa
+            </p>
+            <div id="admin-count-presets" class="admin-count-presets" style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:10px;">
+              <!-- JS render: 5, 10, 15, 20, 30, Tất cả -->
+            </div>
+            <input type="number" id="admin-quiz-count" min="1" value="20" placeholder="VD: 20">
+            <small style="color:#94a3b8;display:block;margin-top:6px;">
+              Ví dụ Unit 1 có 72 từ → nhập <strong>20</strong> để mỗi lần random 20 câu trong unit đó.
+            </small>
+          </div>
+
+          <div class="form-group">
+            <label>Thời gian đếm ngược</label>
+            <select id="admin-quiz-timer">
+              <option value="0">Không giới hạn</option>
+              <option value="180">3 phút</option>
+              <option value="300" selected>5 phút</option>
+              <option value="600">10 phút</option>
+              <option value="900">15 phút</option>
+              <option value="custom">Tùy chỉnh...</option>
+            </select>
+          </div>
+
+          <div class="form-group" id="admin-custom-timer-wrap" style="display:none;">
+            <label>Số phút tùy chỉnh (1–120)</label>
+            <input type="number" id="admin-quiz-timer-custom" min="1" max="120" value="5">
           </div>
 
           <button class="btn btn-primary" onclick="handleCreateQuiz()">Tạo bài tập</button>
         </div>
 
-        <h3 style="margin-bottom:12px; color:#0369a1;">Danh sách bài tập đã tạo</h3>
+        <div class="admin-actions" style="margin-bottom:16px;">
+          <button class="btn btn-success" onclick="exportQuizzesJSON()">⬇ Export quizzes.json</button>
+          <label class="btn btn-outline" style="cursor:pointer;">
+            ⬆ Import quizzes JSON
+            <input type="file" accept=".json" style="display:none;" onchange="importQuizzesJSON(event)">
+          </label>
+          <button class="btn btn-danger btn-sm" onclick="resetQuizzesDefault()">Reset quizzes file</button>
+        </div>
+
+        <h3 style="margin-bottom:12px; color:#0369a1;">Danh sách bài tập</h3>
         <div id="quiz-list-admin"></div>
       </div>
     </div>
   </main>
 
-  <!-- Modal Add/Edit Word -->
+  <!-- Modal từ vựng -->
   <div class="modal" id="word-modal">
     <div class="modal-content">
       <h3 id="modal-title">Thêm từ mới</h3>
@@ -145,16 +254,16 @@
         <input type="text" id="form-meaning" placeholder="quả táo">
       </div>
       <div class="form-group">
-        <label>Chủ đề *</label>
+        <label>Unit / chủ đề *</label>
         <input type="text" id="form-topic" placeholder="Unit 1">
       </div>
       <div class="form-group">
         <label>Câu ví dụ (English)</label>
-        <input type="text" id="form-example" placeholder="I eat an apple every day.">
+        <input type="text" id="form-example">
       </div>
       <div class="form-group">
         <label>Câu ví dụ (Tiếng Việt)</label>
-        <input type="text" id="form-example-vi" placeholder="Tôi ăn một quả táo mỗi ngày.">
+        <input type="text" id="form-example-vi">
       </div>
       <div class="modal-actions">
         <button class="btn btn-outline" onclick="closeModal()">Hủy</button>
@@ -163,11 +272,134 @@
     </div>
   </div>
 
+  <!-- Modal cấu trúc -->
+  <div class="modal" id="structure-modal">
+    <div class="modal-content">
+      <h3 id="structure-modal-title">Thêm cấu trúc</h3>
+      <div class="form-group">
+        <label>Unit *</label>
+        <input type="text" id="form-s-unit" placeholder="Unit 1">
+      </div>
+      <div class="form-group">
+        <label>Tên cấu trúc *</label>
+        <input type="text" id="form-s-name" placeholder="Tag questions">
+      </div>
+      <div class="form-group">
+        <label>Pattern / công thức *</label>
+        <input type="text" id="form-s-pattern" placeholder="Statement, auxiliary + subject?">
+      </div>
+      <div class="form-group">
+        <label>Nghĩa / mục đích *</label>
+        <input type="text" id="form-s-meaning" placeholder="Câu hỏi đuôi — xác nhận thông tin">
+      </div>
+      <div class="form-group">
+        <label>Dạng đầy đủ (form)</label>
+        <input type="text" id="form-s-form" placeholder="Positive + negative tag...">
+      </div>
+      <div class="form-group">
+        <label>Ví dụ (English)</label>
+        <input type="text" id="form-s-example" placeholder="You're a student, aren't you?">
+      </div>
+      <div class="form-group">
+        <label>Ví dụ (Tiếng Việt)</label>
+        <input type="text" id="form-s-example-vi">
+      </div>
+      <div class="form-group">
+        <label>Cách dùng</label>
+        <textarea id="form-s-usage" rows="2" placeholder="Khi nào dùng..."></textarea>
+      </div>
+      <div class="form-group">
+        <label>Ghi chú</label>
+        <input type="text" id="form-s-notes" placeholder="Summit 1">
+      </div>
+      <div class="modal-actions">
+        <button class="btn btn-outline" onclick="closeStructureModal()">Hủy</button>
+        <button class="btn btn-primary" onclick="saveStructure()">Lưu</button>
+      </div>
+    </div>
+  </div>
+
   <footer>
     English Easy &copy; 2026 – Admin Panel
   </footer>
 
-  <script src="js/quiz-manager.js"></script>
-  <script src="js/admin.js"></script>
+  <!-- Login độc lập: luôn chạy được dù file JS khác lỗi -->
+  <script>
+    window.ADMIN_PASS = '123456@Hung';
+
+    window.showAdminUI = function () {
+      var login = document.getElementById('login-section');
+      var panel = document.getElementById('admin-panel');
+      var err = document.getElementById('login-error');
+      if (err) {
+        err.style.display = 'none';
+        err.textContent = '';
+      }
+      if (login) {
+        login.style.setProperty('display', 'none', 'important');
+        login.setAttribute('aria-hidden', 'true');
+      }
+      if (panel) {
+        panel.removeAttribute('hidden');
+        panel.classList.add('is-open');
+        panel.style.setProperty('display', 'block', 'important');
+        panel.setAttribute('aria-hidden', 'false');
+      }
+      try { sessionStorage.setItem('admin_logged_in', '1'); } catch (e) {}
+      return true;
+    };
+
+    window.doAdminLogin = function (event) {
+      if (event && event.preventDefault) event.preventDefault();
+      if (event && event.stopPropagation) event.stopPropagation();
+
+      var input = document.getElementById('admin-password');
+      var err = document.getElementById('login-error');
+      var pw = String((input && input.value) || '')
+        .replace(/^\uFEFF/, '')
+        .trim();
+
+      if (pw !== window.ADMIN_PASS) {
+        var msg = 'Sai mật khẩu!';
+        if (err) {
+          err.style.display = 'block';
+          err.textContent = msg;
+        } else {
+          alert(msg);
+        }
+        if (input) {
+          input.focus();
+          input.select();
+        }
+        return false;
+      }
+
+      window.showAdminUI();
+
+      // Nạp dữ liệu admin (nếu admin.js đã load)
+      if (typeof window.enterAdminAfterLogin === 'function') {
+        Promise.resolve(window.enterAdminAfterLogin()).catch(function (e) {
+          console.error(e);
+          alert('Đã vào Admin, nhưng lỗi nạp dữ liệu: ' + (e && e.message ? e.message : e));
+        });
+      }
+
+      return false;
+    };
+
+    // Tự vào lại nếu đã login trước đó
+    document.addEventListener('DOMContentLoaded', function () {
+      try {
+        if (sessionStorage.getItem('admin_logged_in') === '1') {
+          window.showAdminUI();
+          if (typeof window.enterAdminAfterLogin === 'function') {
+            window.enterAdminAfterLogin();
+          }
+        }
+      } catch (e) {}
+    });
+  </script>
+  <script src="js/quiz-manager.js?v=6"></script>
+  <script src="js/admin.js?v=6"></script>
 </body>
 </html>

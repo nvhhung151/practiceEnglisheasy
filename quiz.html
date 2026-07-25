@@ -12,6 +12,7 @@
     <nav>
       <a href="index.html">Trang chủ</a>
       <a href="vocabulary.html">Từ vựng</a>
+      <a href="structures.html">Cấu trúc câu</a>
       <a href="quiz.html" class="active">Luyện tập</a>
       <a href="admin.html">Admin</a>
     </nav>
@@ -19,23 +20,28 @@
 
   <main class="container">
     <div class="page-header">
-      <h1>Bài tập từ vựng</h1>
+      <h1>Bài tập từ vựng &amp; cấu trúc</h1>
     </div>
 
-    <!-- Danh sách bài tập do Admin tạo -->
-    <div id="quiz-list-user">
-      <p style="text-align:center; color:#64748b; padding:40px;">Đang tải danh sách bài tập...</p>
-    </div>
+    <section id="quiz-list-user">
+      <p class="quiz-hint">
+        Chọn bài do Admin tạo (hoặc import JSON). Mỗi bài đã gắn sẵn loại (từ vựng / cấu trúc), unit, số câu và thời gian.
+      </p>
+      <div id="quiz-list-container">
+        <p style="text-align:center; color:#64748b; padding:40px;">Đang tải danh sách bài tập...</p>
+      </div>
+    </section>
 
-    <!-- Màn hình làm bài -->
-    <div class="quiz-box" id="quiz-box" style="display:none;"></div>
+    <section class="quiz-box" id="quiz-box" style="display:none;"></section>
+    <section id="quiz-result-section" style="display:none;"></section>
   </main>
 
   <footer>
     English Easy &copy; 2026
   </footer>
 
-  <script src="js/quiz-manager.js"></script>
-  <script src="js/app.js"></script>
+  <script src="js/speak.js?v=6"></script>
+  <script src="js/quiz-manager.js?v=6"></script>
+  <script src="js/app.js?v=6"></script>
 </body>
 </html>

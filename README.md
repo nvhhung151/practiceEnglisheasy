@@ -1,58 +1,108 @@
-# English Easy – Website học tiếng Anh cho người học yếu
+# English Easy — Website học tiếng Anh (Summit 1 / FPT)
 
-## Cách chạy demo
+Frontend thuần HTML + CSS + JS. Học **từ vựng**, **cấu trúc câu theo unit**, làm **quiz** (Admin set thời gian).
 
-1. Giải nén / mở thư mục `english-easy`
-2. Mở file `index.html` bằng trình duyệt (Chrome/Edge khuyến nghị)
-   - Hoặc dùng Live Server trong VS Code cho tiện
+## Cách chạy
 
-## Tính năng hiện có
+1. Mở thư mục project
+2. Chạy server local (cần server vì `fetch` file JSON):
 
-### Dành cho người học
-- Trang chủ chọn chủ đề
-- Học từ vựng theo danh sách + Flashcard
-- Nghe phát âm (Web Speech API)
-- Bài tập trắc nghiệm (Quiz)
-- Giao diện tiếng Việt, chữ to, dễ dùng
+```powershell
+python -m http.server 5500
+```
 
-### Dành cho Admin (bạn)
-- Mật khẩu: `123456@Hung`
-- Thêm / Sửa / Xóa từ vựng
-- Import file **JSON** hoặc **CSV**
-- Export ra file `vocabulary.json`
-- Dữ liệu được lưu tạm trong localStorage của trình duyệt
+3. Vào http://localhost:5500/
 
-## Cách cập nhật từ vựng lâu dài
+Hoặc dùng Live Server (VS Code).
 
-1. Vào trang **Admin** → Export JSON
-2. Lưu file `vocabulary.json` mới
-3. Thay thế file `data/vocabulary.json` trong project
-4. Upload lại lên hosting (Netlify, Vercel, GitHub Pages...)
+## Tính năng
 
-Hoặc bạn có thể tiếp tục dùng localStorage khi test trên máy.
+### Người học
+- Từ vựng theo Unit + flashcard + phát âm
+- **Cấu trúc câu theo Unit** (mẫu Summit 1) + flashcard
+- Luyện tập: chỉ làm bài Admin tạo (từ vựng hoặc cấu trúc), có đếm ngược, xem đúng/sai sau bài
+
+### Admin (mật khẩu: `123456@Hung`)
+- Quản lý từ vựng: thêm/sửa/xóa, import/export JSON, CSV
+- Quản lý cấu trúc câu: thêm/sửa/xóa, import/export JSON
+- Tạo quiz: chọn **loại** (từ vựng / cấu trúc), Unit, số câu, **thời gian**
+- Import/export danh sách quiz (`quizzes.json`)
+
+## Lưu dữ liệu vĩnh viễn (GitHub)
+
+Trên trình duyệt, dữ liệu tạm nằm trong **localStorage**. Để lưu vĩnh viễn:
+
+1. Admin → **Export** file tương ứng
+2. Ghi đè vào thư mục `data/`:
+   - `data/vocabulary.json`
+   - `data/structures.json`
+   - `data/quizzes.json`
+3. Commit & push lên GitHub
+4. Hosting (GitHub Pages, Netlify…) sẽ phục vụ file mới
+
+Mẫu schema:
+- `data/structures.schema.example.json`
+- `data/quizzes.schema.example.json`
 
 ## Cấu trúc thư mục
 
 ```
-english-easy/
+practiceEnglisheasy/
 ├── index.html
 ├── vocabulary.html
+├── structures.html
 ├── quiz.html
 ├── admin.html
-├── css/
-│   └── style.css
+├── css/style.css
 ├── js/
 │   ├── app.js
-│   └── admin.js
+│   ├── admin.js
+│   └── quiz-manager.js
 └── data/
-    └── vocabulary.json
+    ├── vocabulary.json
+    ├── structures.json
+    ├── quizzes.json
+    └── *.schema.example.json
 ```
 
-## Ghi chú kỹ thuật
+## Định dạng structures.json (rút gọn)
 
-- Hoàn toàn frontend (HTML + CSS + JS thuần)
-- Không cần server khi chạy local
-- Phát âm dùng `speechSynthesis` của trình duyệt
-- Dữ liệu mẫu có sẵn 18 từ thuộc 6 chủ đề: Food, Family, Colors, Numbers, School, Daily
+```json
+[
+  {
+    "id": 1,
+    "unit": "Unit 1",
+    "name": "Tag questions",
+    "pattern": "Statement, auxiliary + subject?",
+    "meaning": "Câu hỏi đuôi — xác nhận thông tin",
+    "form": "...",
+    "example": "You're a student, aren't you?",
+    "example_vi": "Bạn là sinh viên, đúng không?",
+    "usage": "...",
+    "notes": "Summit 1"
+  }
+]
+```
 
-Chúc bạn học IT vui và làm được website hay!
+## Định dạng quizzes.json
+
+```json
+[
+  {
+    "id": 1,
+    "title": "Unit 1 — Cấu trúc",
+    "type": "structure",
+    "topic": "Unit 1",
+    "count": 8,
+    "timerSeconds": 300,
+    "createdAt": "..."
+  }
+]
+```
+
+`type`: `"vocab"` | `"structure"` · `timerSeconds`: `0` = không giới hạn.
+
+## Ghi chú
+
+- Phần cấu trúc mẫu mang tính gợi ý theo Summit 1; bạn nên chỉnh/import đúng giáo trình lớp mình.
+- Nếu thấy dữ liệu cũ: Admin → Reset file tương ứng, hoặc xóa localStorage domain đó.

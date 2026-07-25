@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cấu trúc câu - English Easy</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="navbar">
+    <a href="index.html" class="logo">📘 English Easy</a>
+    <nav>
+      <a href="index.html">Trang chủ</a>
+      <a href="vocabulary.html">Từ vựng</a>
+      <a href="structures.html" class="active">Cấu trúc câu</a>
+      <a href="quiz.html">Luyện tập</a>
+      <a href="admin.html">Admin</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <div class="page-header">
+      <h1>Cấu trúc câu theo Unit</h1>
+      <div>
+        <button id="btn-struct-list" class="btn btn-primary btn-sm">Danh sách</button>
+        <button id="btn-struct-flash" class="btn btn-outline btn-sm">Flashcard</button>
+      </div>
+    </div>
+
+    <p class="quiz-hint">
+      Giáo trình gợi ý: <strong>Summit 1 (FPT)</strong>. Chọn unit để học mẫu câu. Admin có thể import JSON để cập nhật dữ liệu vĩnh viễn (commit lên GitHub).
+    </p>
+
+    <div class="filter-bar">
+      <select id="filter-struct-unit">
+        <option value="">Tất cả unit</option>
+      </select>
+      <input type="text" id="search-struct" placeholder="Tìm tên cấu trúc, pattern, nghĩa...">
+    </div>
+
+    <div id="struct-list-section">
+      <div class="structure-list" id="structure-list"></div>
+    </div>
+
+    <div id="struct-flash-section" style="display:none;">
+      <div class="flashcard-container">
+        <div class="flashcard" id="struct-flashcard" onclick="flipStructCard()"></div>
+      </div>
+      <div class="flashcard-controls">
+        <button class="btn btn-outline" onclick="prevStructCard()">← Trước</button>
+        <span id="struct-flash-counter" style="font-size:1.1rem;font-weight:600;min-width:80px;text-align:center;">1 / 1</span>
+        <button class="btn btn-outline" onclick="nextStructCard()">Sau →</button>
+      </div>
+      <p style="text-align:center;margin-top:12px;color:#64748b;font-size:0.95rem;">Nhấn vào thẻ để lật (công thức ↔ nghĩa)</p>
+    </div>
+  </main>
+
+  <footer>
+    English Easy &copy; 2026 — Summit 1 structures
+  </footer>
+
+  <script src="js/speak.js?v=6"></script>
+  <script src="js/quiz-manager.js?v=6"></script>
+  <script src="js/app.js?v=6"></script>
+</body>
+</html>

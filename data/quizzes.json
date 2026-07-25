@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1001,
+    "title": "Unit 1 — Từ vựng 20 câu",
+    "type": "vocab",
+    "topic": "Unit 1",
+    "count": 20,
+    "timerSeconds": 600,
+    "createdAt": "mẫu hệ thống"
+  },
+  {
+    "id": 1002,
+    "title": "Unit 1 — Từ vựng 10 câu (nhanh)",
+    "type": "vocab",
+    "topic": "Unit 1",
+    "count": 10,
+    "timerSeconds": 300,
+    "createdAt": "mẫu hệ thống"
+  },
+  {
+    "id": 1003,
+    "title": "Unit 1 — Cấu trúc câu",
+    "type": "structure",
+    "topic": "Unit 1",
+    "count": 4,
+    "timerSeconds": 180,
+    "createdAt": "mẫu hệ thống"
+  },
+  {
+    "id": 1004,
+    "title": "Unit 2 — Từ vựng 15 câu",
+    "type": "vocab",
+    "topic": "Unit 2",
+    "count": 15,
+    "timerSeconds": 450,
+    "createdAt": "mẫu hệ thống"
+  },
+  {
+    "id": 1005,
+    "title": "Unit 3 — Từ vựng 15 câu",
+    "type": "vocab",
+    "topic": "Unit 3",
+    "count": 15,
+    "timerSeconds": 450,
+    "createdAt": "mẫu hệ thống"
+  }
+]

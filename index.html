@@ -12,6 +12,7 @@
     <nav>
       <a href="index.html" class="active">Trang chủ</a>
       <a href="vocabulary.html">Từ vựng</a>
+      <a href="structures.html">Cấu trúc câu</a>
       <a href="quiz.html">Luyện tập</a>
       <a href="admin.html">Admin</a>
     </nav>
@@ -20,23 +21,27 @@
   <main class="container">
     <section class="hero">
       <h1>Học tiếng Anh thật dễ dàng</h1>
-      <p>Dành cho người học yếu – Từ vựng cơ bản, phát âm chuẩn, bài tập vui</p>
+      <p>Summit 1 (FPT) — Từ vựng, cấu trúc câu theo unit, bài tập có hẹn giờ</p>
       <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap;">
-        <a href="vocabulary.html" class="btn btn-primary">Bắt đầu học từ vựng</a>
-        <a href="quiz.html" class="btn btn-outline">Làm bài tập ngay</a>
+        <a href="vocabulary.html" class="btn btn-primary">Học từ vựng</a>
+        <a href="structures.html" class="btn btn-primary">Học cấu trúc câu</a>
+        <a href="quiz.html" class="btn btn-outline">Làm bài tập</a>
       </div>
     </section>
 
-    <h2 style="margin-bottom:16px;color:#0369a1;">Chọn chủ đề học</h2>
-    <div class="topics-grid" id="topics-grid">
-      <!-- JS sẽ render -->
-    </div>
+    <h2 style="margin-bottom:16px;color:#0369a1;">Từ vựng theo Unit</h2>
+    <div class="topics-grid" id="topics-grid"></div>
+
+    <h2 style="margin:32px 0 16px;color:#0369a1;">Cấu trúc câu theo Unit</h2>
+    <div class="topics-grid" id="structures-home-grid"></div>
   </main>
 
   <footer>
     English Easy &copy; 2026 – Dành cho người mới bắt đầu
   </footer>
 
-  <script src="js/app.js"></script>
+  <script src="js/speak.js?v=6"></script>
+  <script src="js/quiz-manager.js?v=6"></script>
+  <script src="js/app.js?v=6"></script>
 </body>
 </html>
