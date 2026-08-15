@@ -1,6 +1,6 @@
-# English Easy — Website học tiếng Anh (Summit 1 / FPT)
+# English Easy — Website học tiếng Anh
 
-Frontend thuần HTML + CSS + JS. Học **từ vựng**, **cấu trúc câu theo unit**, làm **quiz** (Admin set thời gian).
+Frontend thuần HTML + CSS + JS. Học **từ vựng**, **cấu trúc câu theo Unit 1–10**, làm **quiz** (Admin set thời gian).
 
 ## Cách chạy
 

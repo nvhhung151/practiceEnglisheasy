@@ -161,6 +161,7 @@ function openAddModal() {
   document.getElementById('modal-title').textContent = 'Thêm từ mới';
   ['form-word', 'form-phonetic', 'form-meaning', 'form-topic', 'form-example', 'form-example-vi']
     .forEach(id => { document.getElementById(id).value = ''; });
+  document.getElementById('form-course').value = 'summit1';
   document.getElementById('word-modal').classList.add('show');
 }
 
@@ -172,6 +173,7 @@ function openEditModal(id) {
   document.getElementById('form-word').value = v.word;
   document.getElementById('form-phonetic').value = v.phonetic || '';
   document.getElementById('form-meaning').value = v.meaning;
+  document.getElementById('form-course').value = v.course || (v.topic === 'Unit 10' ? 'careers' : 'summit1');
   document.getElementById('form-topic').value = v.topic;
   document.getElementById('form-example').value = v.example || '';
   document.getElementById('form-example-vi').value = v.example_vi || '';
@@ -186,6 +188,7 @@ function saveWord() {
   const word = document.getElementById('form-word').value.trim();
   const phonetic = document.getElementById('form-phonetic').value.trim();
   const meaning = document.getElementById('form-meaning').value.trim();
+  const course = document.getElementById('form-course').value;
   const topic = document.getElementById('form-topic').value.trim();
   const example = document.getElementById('form-example').value.trim();
   const example_vi = document.getElementById('form-example-vi').value.trim();
@@ -198,11 +201,11 @@ function saveWord() {
   if (editingId) {
     const idx = vocabData.findIndex(v => v.id === editingId);
     if (idx !== -1) {
-      vocabData[idx] = { ...vocabData[idx], word, phonetic, meaning, topic, example, example_vi };
+      vocabData[idx] = { ...vocabData[idx], word, phonetic, meaning, topic, example, example_vi, course };
     }
   } else {
     const newId = vocabData.length > 0 ? Math.max(...vocabData.map(v => v.id)) + 1 : 1;
-    vocabData.push({ id: newId, word, phonetic, meaning, topic, example, example_vi });
+    vocabData.push({ id: newId, word, phonetic, meaning, topic, example, example_vi, course });
   }
 
   saveData();
@@ -339,6 +342,7 @@ function openAddStructureModal() {
   ['form-s-unit', 'form-s-name', 'form-s-pattern', 'form-s-meaning', 'form-s-form',
     'form-s-example', 'form-s-example-vi', 'form-s-usage', 'form-s-notes']
     .forEach(id => { document.getElementById(id).value = ''; });
+  document.getElementById('form-s-course').value = 'summit1';
   document.getElementById('structure-modal').classList.add('show');
 }
 
@@ -348,6 +352,7 @@ function openEditStructureModal(id) {
   editingStructureId = id;
   document.getElementById('structure-modal-title').textContent = 'Sửa cấu trúc';
   document.getElementById('form-s-unit').value = s.unit || '';
+  document.getElementById('form-s-course').value = s.course || (s.unit === 'Unit 10' ? 'careers' : 'summit1');
   document.getElementById('form-s-name').value = s.name || '';
   document.getElementById('form-s-pattern').value = s.pattern || '';
   document.getElementById('form-s-meaning').value = s.meaning || '';
@@ -365,6 +370,7 @@ function closeStructureModal() {
 
 function saveStructure() {
   const unit = document.getElementById('form-s-unit').value.trim();
+  const course = document.getElementById('form-s-course').value;
   const name = document.getElementById('form-s-name').value.trim();
   const pattern = document.getElementById('form-s-pattern').value.trim();
   const meaning = document.getElementById('form-s-meaning').value.trim();
@@ -379,7 +385,7 @@ function saveStructure() {
     return;
   }
 
-  const payload = { unit, name, pattern, meaning, form, example, example_vi, usage, notes };
+  const payload = { unit, name, pattern, meaning, form, example, example_vi, usage, notes, course };
 
   if (editingStructureId) {
     const idx = structureData.findIndex(s => s.id === editingStructureId);
@@ -463,6 +469,8 @@ function sortTopicNames(topics) {
 
 function loadQuizTab() {
   fillQuizTopicSelect();
+  document.getElementById('admin-quiz-course')?.removeEventListener('change', onQuizCourseChange);
+  document.getElementById('admin-quiz-course')?.addEventListener('change', onQuizCourseChange);
   document.getElementById('admin-quiz-type')?.removeEventListener('change', onQuizTypeChange);
   document.getElementById('admin-quiz-type')?.addEventListener('change', onQuizTypeChange);
   document.getElementById('admin-quiz-topic')?.removeEventListener('change', updateAdminMax);
@@ -479,23 +487,40 @@ function onQuizTypeChange() {
   updateAdminMax();
 }
 
+function onQuizCourseChange() {
+  fillQuizTopicSelect();
+  updateAdminMax();
+}
+
+function getAdminItemCourse(item) {
+  if (item.course) return item.course;
+  return (item.topic === 'Unit 10' || item.unit === 'Unit 10') ? 'careers' : 'summit1';
+}
+
+function getSelectedQuizCourse() {
+  return document.getElementById('admin-quiz-course')?.value || 'summit1';
+}
+
 function fillQuizTopicSelect() {
   const type = document.getElementById('admin-quiz-type')?.value || 'vocab';
+  const course = getSelectedQuizCourse();
   const select = document.getElementById('admin-quiz-topic');
   if (!select) return;
 
   if (type === 'structure') {
-    const units = sortTopicNames([...new Set(structureData.map(s => s.unit))]);
-    select.innerHTML = `<option value="">-- Tất cả cấu trúc (${structureData.length}) --</option>` +
+    const courseStructures = structureData.filter(s => getAdminItemCourse(s) === course);
+    const units = sortTopicNames([...new Set(courseStructures.map(s => s.unit))]);
+    select.innerHTML = `<option value="">-- Tất cả cấu trúc (${courseStructures.length}) --</option>` +
       units.map(u => {
-        const count = structureData.filter(s => s.unit === u).length;
+        const count = courseStructures.filter(s => s.unit === u).length;
         return `<option value="${esc(u)}">${esc(u)} (${count} cấu trúc)</option>`;
       }).join('');
   } else {
-    const topics = sortTopicNames([...new Set(vocabData.map(v => v.topic))]);
-    select.innerHTML = `<option value="">-- Tất cả từ vựng (${vocabData.length}) --</option>` +
+    const courseVocab = vocabData.filter(v => getAdminItemCourse(v) === course);
+    const topics = sortTopicNames([...new Set(courseVocab.map(v => v.topic))]);
+    select.innerHTML = `<option value="">-- Tất cả từ vựng (${courseVocab.length}) --</option>` +
       topics.map(t => {
-        const count = vocabData.filter(v => v.topic === t).length;
+        const count = courseVocab.filter(v => v.topic === t).length;
         return `<option value="${esc(t)}">${esc(t)} (${count} từ)</option>`;
       }).join('');
   }
@@ -509,12 +534,13 @@ function toggleAdminCustomTimer() {
 
 function updateAdminMax() {
   const type = document.getElementById('admin-quiz-type')?.value || 'vocab';
+  const course = getSelectedQuizCourse();
   const topic = document.getElementById('admin-quiz-topic')?.value || '';
   let pool;
   if (type === 'structure') {
-    pool = topic ? structureData.filter(s => s.unit === topic) : structureData;
+    pool = structureData.filter(s => getAdminItemCourse(s) === course && (!topic || s.unit === topic));
   } else {
-    pool = topic ? vocabData.filter(v => v.topic === topic) : vocabData;
+    pool = vocabData.filter(v => getAdminItemCourse(v) === course && (!topic || v.topic === topic));
   }
   const max = pool.length;
   const input = document.getElementById('admin-quiz-count');
@@ -582,6 +608,7 @@ function getAdminTimerSeconds() {
 function handleCreateQuiz() {
   const title = document.getElementById('quiz-title').value.trim();
   const type = document.getElementById('admin-quiz-type').value || 'vocab';
+  const course = getSelectedQuizCourse();
   const topic = document.getElementById('admin-quiz-topic').value;
   let count = parseInt(document.getElementById('admin-quiz-count').value, 10);
   const timerSeconds = getAdminTimerSeconds();
@@ -589,9 +616,9 @@ function handleCreateQuiz() {
   // Tính max theo unit hiện tại
   let pool;
   if (type === 'structure') {
-    pool = topic ? structureData.filter(s => s.unit === topic) : structureData;
+    pool = structureData.filter(s => getAdminItemCourse(s) === course && (!topic || s.unit === topic));
   } else {
-    pool = topic ? vocabData.filter(v => v.topic === topic) : vocabData;
+    pool = vocabData.filter(v => getAdminItemCourse(v) === course && (!topic || v.topic === topic));
   }
   const max = pool.length;
   if (!max) {
@@ -616,7 +643,7 @@ function handleCreateQuiz() {
   const autoTitle = title ||
     `${topic || 'Tất cả'} — ${type === 'structure' ? 'Cấu trúc' : 'Từ vựng'} ${count} câu`;
 
-  if (createQuiz(autoTitle, topic, count, timerSeconds, type)) {
+  if (createQuiz(autoTitle, topic, count, timerSeconds, type, course)) {
     alert(
       'Đã tạo bài tập!\n' +
       `• ${autoTitle}\n` +

@@ -2995,5 +2995,2795 @@
     "topic": "Unit 9",
     "example": "",
     "example_vi": ""
+  },
+  {
+    "id": 334,
+    "word": "career path",
+    "phonetic": "/kəˈrɪr pæθ/",
+    "meaning": "con đường sự nghiệp",
+    "topic": "Unit 10",
+    "example": "She is planning her career path carefully.",
+    "example_vi": "Cô ấy đang lên kế hoạch cẩn thận cho con đường sự nghiệp của mình."
+  },
+  {
+    "id": 335,
+    "word": "job interview",
+    "phonetic": "/dʒɑːb ˈɪntərvjuː/",
+    "meaning": "buổi phỏng vấn xin việc",
+    "topic": "Unit 10",
+    "example": "I have a job interview on Monday.",
+    "example_vi": "Tôi có một buổi phỏng vấn xin việc vào thứ Hai."
+  },
+  {
+    "id": 336,
+    "word": "qualification",
+    "phonetic": "/ˌkwɑːlɪfɪˈkeɪʃn/",
+    "meaning": "trình độ, bằng cấp",
+    "topic": "Unit 10",
+    "example": "This position requires a teaching qualification.",
+    "example_vi": "Vị trí này yêu cầu bằng cấp giảng dạy."
+  },
+  {
+    "id": 337,
+    "word": "strength",
+    "phonetic": "/streŋθ/",
+    "meaning": "điểm mạnh",
+    "topic": "Unit 10",
+    "example": "Communication is one of her strengths.",
+    "example_vi": "Giao tiếp là một trong những điểm mạnh của cô ấy."
+  },
+  {
+    "id": 338,
+    "word": "weakness",
+    "phonetic": "/ˈwiːknəs/",
+    "meaning": "điểm yếu",
+    "topic": "Unit 10",
+    "example": "He is working on his weaknesses.",
+    "example_vi": "Anh ấy đang cải thiện những điểm yếu của mình."
+  },
+  {
+    "id": 339,
+    "word": "apply for",
+    "phonetic": "/əˈplaɪ fɔːr/",
+    "meaning": "nộp đơn xin",
+    "topic": "Unit 10",
+    "example": "She applied for a part-time job.",
+    "example_vi": "Cô ấy đã nộp đơn xin một công việc bán thời gian."
+  },
+  {
+    "id": 340,
+    "word": "resume",
+    "phonetic": "/ˈrezəmeɪ/",
+    "meaning": "sơ yếu lý lịch, CV",
+    "topic": "Unit 10",
+    "example": "Please send your resume by email.",
+    "example_vi": "Vui lòng gửi CV của bạn qua email."
+  },
+  {
+    "id": 341,
+    "word": "experience",
+    "phonetic": "/ɪkˈspɪriəns/",
+    "meaning": "kinh nghiệm",
+    "topic": "Unit 10",
+    "example": "Previous experience is helpful for this role.",
+    "example_vi": "Kinh nghiệm trước đây hữu ích cho vị trí này."
+  },
+  {
+    "id": 342,
+    "word": "responsibility",
+    "phonetic": "/rɪˌspɑːnsəˈbɪləti/",
+    "meaning": "trách nhiệm",
+    "topic": "Unit 10",
+    "example": "Managing the team is her main responsibility.",
+    "example_vi": "Quản lý nhóm là trách nhiệm chính của cô ấy."
+  },
+  {
+    "id": 343,
+    "word": "deadline",
+    "phonetic": "/ˈdedlaɪn/",
+    "meaning": "hạn chót",
+    "topic": "Unit 10",
+    "example": "We must finish the report before the deadline.",
+    "example_vi": "Chúng ta phải hoàn thành báo cáo trước hạn chót."
+  },
+  {
+    "id": 344,
+    "word": "promotion",
+    "phonetic": "/prəˈmoʊʃn/",
+    "meaning": "sự thăng chức",
+    "topic": "Unit 10",
+    "example": "He received a promotion last year.",
+    "example_vi": "Anh ấy đã được thăng chức vào năm ngoái."
+  },
+  {
+    "id": 345,
+    "word": "salary",
+    "phonetic": "/ˈsæləri/",
+    "meaning": "lương",
+    "topic": "Unit 10",
+    "example": "The company offers a competitive salary.",
+    "example_vi": "Công ty đưa ra mức lương cạnh tranh."
+  },
+  {
+    "id": 346,
+    "word": "colleague",
+    "phonetic": "/ˈkɑːliːɡ/",
+    "meaning": "đồng nghiệp",
+    "topic": "Unit 10",
+    "example": "My colleagues are friendly and helpful.",
+    "example_vi": "Các đồng nghiệp của tôi thân thiện và hay giúp đỡ."
+  },
+  {
+    "id": 347,
+    "word": "work-life balance",
+    "phonetic": "/wɜːrk laɪf ˈbæləns/",
+    "meaning": "cân bằng công việc và cuộc sống",
+    "topic": "Unit 10",
+    "example": "A good work-life balance is important for health.",
+    "example_vi": "Cân bằng tốt giữa công việc và cuộc sống rất quan trọng cho sức khỏe."
+  },
+  {
+    "id": 348,
+    "word": "goal",
+    "phonetic": "/ɡoʊl/",
+    "meaning": "mục tiêu",
+    "topic": "Unit 10",
+    "example": "My goal is to become a project manager.",
+    "example_vi": "Mục tiêu của tôi là trở thành quản lý dự án."
+  },
+  {
+    "id": 349,
+    "word": "achieve",
+    "phonetic": "/əˈtʃiːv/",
+    "meaning": "đạt được",
+    "topic": "Unit 10",
+    "example": "You can achieve your goals with practice.",
+    "example_vi": "Bạn có thể đạt được mục tiêu của mình bằng sự luyện tập."
+  },
+  {
+    "id": 350,
+    "word": "challenge",
+    "phonetic": "/ˈtʃælɪndʒ/",
+    "meaning": "thử thách",
+    "topic": "Unit 10",
+    "example": "Learning a new skill can be a challenge.",
+    "example_vi": "Học một kỹ năng mới có thể là một thử thách."
+  },
+  {
+    "id": 351,
+    "word": "flexible",
+    "phonetic": "/ˈfleksəbl/",
+    "meaning": "linh hoạt",
+    "topic": "Unit 10",
+    "example": "Her working hours are flexible.",
+    "example_vi": "Giờ làm việc của cô ấy linh hoạt."
+  },
+  {
+    "id": 352,
+    "word": "reliable",
+    "phonetic": "/rɪˈlaɪəbl/",
+    "meaning": "đáng tin cậy",
+    "topic": "Unit 10",
+    "example": "We need a reliable person for this job.",
+    "example_vi": "Chúng tôi cần một người đáng tin cậy cho công việc này."
+  },
+  {
+    "id": 353,
+    "word": "take initiative",
+    "phonetic": "/teɪk ɪˈnɪʃətɪv/",
+    "meaning": "chủ động",
+    "topic": "Unit 10",
+    "example": "Employees should take initiative when solving problems.",
+    "example_vi": "Nhân viên nên chủ động khi giải quyết vấn đề."
+  },
+  {
+    "id": 354,
+    "word": "etiquette",
+    "phonetic": "",
+    "meaning": "phép lịch sự",
+    "topic": "Unit 1",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 355,
+    "word": "promptly",
+    "phonetic": "",
+    "meaning": "nhanh chóng, đúng giờ",
+    "topic": "Unit 1",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 356,
+    "word": "slacks",
+    "phonetic": "",
+    "meaning": "quần tây",
+    "topic": "Unit 1",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 357,
+    "word": "to refrain",
+    "phonetic": "",
+    "meaning": "kiềm chế, hạn chế",
+    "topic": "Unit 1",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 358,
+    "word": "dietary",
+    "phonetic": "",
+    "meaning": "chế độ ăn uống",
+    "topic": "Unit 1",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 359,
+    "word": "a requirement",
+    "phonetic": "",
+    "meaning": "yêu cầu",
+    "topic": "Unit 1",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 360,
+    "word": "cultural literacy",
+    "phonetic": "",
+    "meaning": "sự hiểu biết về văn hóa",
+    "topic": "Unit 1",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 361,
+    "word": "a table manner",
+    "phonetic": "",
+    "meaning": "nguyên tắc bàn ăn",
+    "topic": "Unit 1",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 362,
+    "word": "punctuality",
+    "phonetic": "",
+    "meaning": "sự đúng giờ",
+    "topic": "Unit 1",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 363,
+    "word": "impolite",
+    "phonetic": "",
+    "meaning": "bất lịch sự",
+    "topic": "Unit 1",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 364,
+    "word": "offensive",
+    "phonetic": "",
+    "meaning": "phản cảm",
+    "topic": "Unit 1",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 365,
+    "word": "customary",
+    "phonetic": "",
+    "meaning": "theo phong tục",
+    "topic": "Unit 1",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 366,
+    "word": "a taboo",
+    "phonetic": "",
+    "meaning": "điều cấm kỵ",
+    "topic": "Unit 1",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 367,
+    "word": "conservative",
+    "phonetic": "",
+    "meaning": "bảo thủ",
+    "topic": "Unit 1",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 368,
+    "word": "a workforce",
+    "phonetic": "",
+    "meaning": "lực lượng lao động",
+    "topic": "Unit 1",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 369,
+    "word": "respectful",
+    "phonetic": "",
+    "meaning": "kính trọng",
+    "topic": "Unit 1",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 370,
+    "word": "dating",
+    "phonetic": "",
+    "meaning": "cuộc hẹn hò",
+    "topic": "Unit 1",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 371,
+    "word": "a curfew",
+    "phonetic": "",
+    "meaning": "giờ giới nghiêm",
+    "topic": "Unit 1",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 372,
+    "word": "a double standard",
+    "phonetic": "",
+    "meaning": "tiêu chuẩn kép",
+    "topic": "Unit 1",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 373,
+    "word": "strict = serious",
+    "phonetic": "",
+    "meaning": "nghiêm khắc",
+    "topic": "Unit 1",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 374,
+    "word": "to address",
+    "phonetic": "",
+    "meaning": "dùng (tên hoặc chức tước) khi nói hoặc viết cho ai",
+    "topic": "Unit 1",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 375,
+    "word": "grounded",
+    "phonetic": "",
+    "meaning": "bị nhốt, bị cấm đi ra ngoài",
+    "topic": "Unit 1",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 376,
+    "word": "to allow",
+    "phonetic": "",
+    "meaning": "cho phép",
+    "topic": "Unit 1",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 377,
+    "word": "a custom",
+    "phonetic": "",
+    "meaning": "tập quán",
+    "topic": "Unit 1",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 378,
+    "word": "old-fashioned",
+    "phonetic": "",
+    "meaning": "lỗi thời",
+    "topic": "Unit 1",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 379,
+    "word": "dental emergency",
+    "phonetic": "",
+    "meaning": "cấp cứu nha khoa",
+    "topic": "Unit 2",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 380,
+    "word": "an appointment",
+    "phonetic": "",
+    "meaning": "cuộc hẹn",
+    "topic": "Unit 2",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 381,
+    "word": "to schedule an appointment",
+    "phonetic": "",
+    "meaning": "đặt lịch hẹn",
+    "topic": "Unit 2",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 382,
+    "word": "a swollen gum",
+    "phonetic": "",
+    "meaning": "nướu (lợi) bị sưng",
+    "topic": "Unit 2",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 383,
+    "word": "a clinic",
+    "phonetic": "",
+    "meaning": "phòng khám",
+    "topic": "Unit 2",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 384,
+    "word": "a temporary solution",
+    "phonetic": "",
+    "meaning": "giải pháp tạm thời",
+    "topic": "Unit 2",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 385,
+    "word": "to determine",
+    "phonetic": "",
+    "meaning": "quyết định",
+    "topic": "Unit 2",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 386,
+    "word": "filling",
+    "phonetic": "",
+    "meaning": "việc trám (răng)",
+    "topic": "Unit 2",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 387,
+    "word": "chewy",
+    "phonetic": "",
+    "meaning": "dai",
+    "topic": "Unit 2",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 388,
+    "word": "cancellation",
+    "phonetic": "",
+    "meaning": "sự hủy bỏ",
+    "topic": "Unit 2",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 389,
+    "word": "dizzy",
+    "phonetic": "",
+    "meaning": "chóng mặt",
+    "topic": "Unit 2",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 390,
+    "word": "nauseous",
+    "phonetic": "",
+    "meaning": "buồn nôn",
+    "topic": "Unit 2",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 391,
+    "word": "short of breath",
+    "phonetic": "",
+    "meaning": "hụt hơi, khó thở",
+    "topic": "Unit 2",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 392,
+    "word": "vomiting",
+    "phonetic": "",
+    "meaning": "sự nôn mửa",
+    "topic": "Unit 2",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 393,
+    "word": "wheezing",
+    "phonetic": "",
+    "meaning": "thở khò khè",
+    "topic": "Unit 2",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 394,
+    "word": "ribs",
+    "phonetic": "",
+    "meaning": "sườn",
+    "topic": "Unit 2",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 395,
+    "word": "a medical procedure",
+    "phonetic": "",
+    "meaning": "thủ tục y tế",
+    "topic": "Unit 2",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 396,
+    "word": "a checkup = an examination",
+    "phonetic": "",
+    "meaning": "kiểm tra (sức khỏe)",
+    "topic": "Unit 2",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 397,
+    "word": "a shot = an injection",
+    "phonetic": "",
+    "meaning": "sự tiêm thuốc",
+    "topic": "Unit 2",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 398,
+    "word": "an EKG = an electrocardiogram",
+    "phonetic": "",
+    "meaning": "điện tâm đồ",
+    "topic": "Unit 2",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 399,
+    "word": "a blood test",
+    "phonetic": "",
+    "meaning": "xét nghiệm máu",
+    "topic": "Unit 2",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 400,
+    "word": "a treatment",
+    "phonetic": "",
+    "meaning": "việc điều trị",
+    "topic": "Unit 2",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 401,
+    "word": "conventional medicine",
+    "phonetic": "",
+    "meaning": "thuốc thông thường",
+    "topic": "Unit 2",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 402,
+    "word": "homeopathy",
+    "phonetic": "",
+    "meaning": "liệu pháp vi lượng đồng căn",
+    "topic": "Unit 2",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 403,
+    "word": "an acupuncture",
+    "phonetic": "",
+    "meaning": "châm cứu",
+    "topic": "Unit 2",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 404,
+    "word": "a herbal therapy",
+    "phonetic": "",
+    "meaning": "liệu pháp thảo dược",
+    "topic": "Unit 2",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 405,
+    "word": "spiritual healing",
+    "phonetic": "",
+    "meaning": "việc chữa lành tâm linh",
+    "topic": "Unit 2",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 406,
+    "word": "medications",
+    "phonetic": "",
+    "meaning": "thuốc",
+    "topic": "Unit 2",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 407,
+    "word": "a purpose",
+    "phonetic": "",
+    "meaning": "mục đích",
+    "topic": "Unit 2",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 408,
+    "word": "a symptom",
+    "phonetic": "",
+    "meaning": "triệu chứng",
+    "topic": "Unit 2",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 409,
+    "word": "a remedy",
+    "phonetic": "",
+    "meaning": "phương thuốc",
+    "topic": "Unit 2",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 410,
+    "word": "a therapy",
+    "phonetic": "",
+    "meaning": "việc trị liệu",
+    "topic": "Unit 2",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 411,
+    "word": "a surgery",
+    "phonetic": "",
+    "meaning": "phẫu thuật",
+    "topic": "Unit 2",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 412,
+    "word": "a painkiller",
+    "phonetic": "",
+    "meaning": "thuốc giảm đau",
+    "topic": "Unit 2",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 413,
+    "word": "cold tablets",
+    "phonetic": "",
+    "meaning": "thuốc chữa cảm lạnh",
+    "topic": "Unit 2",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 414,
+    "word": "a nasal spray = a decongestant",
+    "phonetic": "",
+    "meaning": "thuốc xịt thông mũi",
+    "topic": "Unit 2",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 415,
+    "word": "eye drop",
+    "phonetic": "",
+    "meaning": "thuốc nhỏ mắt",
+    "topic": "Unit 2",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 416,
+    "word": "an antihistamine",
+    "phonetic": "",
+    "meaning": "thuốc chống dị ứng",
+    "topic": "Unit 2",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 417,
+    "word": "cough medicine",
+    "phonetic": "",
+    "meaning": "thuốc ho",
+    "topic": "Unit 2",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 418,
+    "word": "an antibiotic",
+    "phonetic": "",
+    "meaning": "thuốc kháng sinh",
+    "topic": "Unit 2",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 419,
+    "word": "an antacid",
+    "phonetic": "",
+    "meaning": "thuốc kháng axit",
+    "topic": "Unit 2",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 420,
+    "word": "an ointment",
+    "phonetic": "",
+    "meaning": "thuốc mỡ",
+    "topic": "Unit 2",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 446,
+    "word": "to procrastinate",
+    "phonetic": "",
+    "meaning": "trì hoãn",
+    "topic": "Unit 3",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 447,
+    "word": "a procrastinator",
+    "phonetic": "",
+    "meaning": "người trì hoãn",
+    "topic": "Unit 3",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 448,
+    "word": "organized",
+    "phonetic": "",
+    "meaning": "có tổ chức",
+    "topic": "Unit 3",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 449,
+    "word": "self-motivated",
+    "phonetic": "",
+    "meaning": "năng động, năng nổ",
+    "topic": "Unit 3",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 450,
+    "word": "urgent",
+    "phonetic": "",
+    "meaning": "khẩn cấp",
+    "topic": "Unit 3",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 451,
+    "word": "to dry-clean a suit",
+    "phonetic": "",
+    "meaning": "giặt khô quần áo",
+    "topic": "Unit 3",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 452,
+    "word": "to repair shoes",
+    "phonetic": "",
+    "meaning": "sửa giày",
+    "topic": "Unit 3",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 453,
+    "word": "to frame a picture",
+    "phonetic": "",
+    "meaning": "đóng khung hình",
+    "topic": "Unit 3",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 454,
+    "word": "to deliver a package",
+    "phonetic": "",
+    "meaning": "giao gói hàng",
+    "topic": "Unit 3",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 455,
+    "word": "to lengthen ≠ shorten",
+    "phonetic": "",
+    "meaning": "nối dài ≠ cắt ngắn (váy)",
+    "topic": "Unit 3",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 456,
+    "word": "to print a sign",
+    "phonetic": "",
+    "meaning": "in bảng hiệu",
+    "topic": "Unit 3",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 457,
+    "word": "to copy a report",
+    "phonetic": "",
+    "meaning": "sao chép báo cáo",
+    "topic": "Unit 3",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 458,
+    "word": "valuable",
+    "phonetic": "",
+    "meaning": "có giá trị",
+    "topic": "Unit 3",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 459,
+    "word": "efficient",
+    "phonetic": "",
+    "meaning": "hiệu quả",
+    "topic": "Unit 3",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 460,
+    "word": "efficiency",
+    "phonetic": "",
+    "meaning": "tính hiệu quả",
+    "topic": "Unit 3",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 461,
+    "word": "reliable",
+    "phonetic": "",
+    "meaning": "đáng tin cậy",
+    "topic": "Unit 3",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 462,
+    "word": "reliability",
+    "phonetic": "",
+    "meaning": "độ tin cậy",
+    "topic": "Unit 3",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 463,
+    "word": "to apologize",
+    "phonetic": "",
+    "meaning": "xin lỗi",
+    "topic": "Unit 3",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 464,
+    "word": "to promise",
+    "phonetic": "",
+    "meaning": "hứa",
+    "topic": "Unit 3",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 465,
+    "word": "reasonable",
+    "phonetic": "",
+    "meaning": "hợp lý, phải chăng",
+    "topic": "Unit 3",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 466,
+    "word": "to appreciate",
+    "phonetic": "",
+    "meaning": "đánh giá cao",
+    "topic": "Unit 3",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 467,
+    "word": "responsibility",
+    "phonetic": "",
+    "meaning": "trách nhiệm",
+    "topic": "Unit 3",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 468,
+    "word": "courteous",
+    "phonetic": "",
+    "meaning": "lịch sự",
+    "topic": "Unit 3",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 469,
+    "word": "to complain",
+    "phonetic": "",
+    "meaning": "phàn nàn, than phiền",
+    "topic": "Unit 3",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 470,
+    "word": "complaint",
+    "phonetic": "",
+    "meaning": "sự than phiền",
+    "topic": "Unit 3",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 471,
+    "word": "to assure",
+    "phonetic": "",
+    "meaning": "đảm bảo",
+    "topic": "Unit 3",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 472,
+    "word": "willing",
+    "phonetic": "",
+    "meaning": "sẵn lòng",
+    "topic": "Unit 3",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 473,
+    "word": "workmanship",
+    "phonetic": "",
+    "meaning": "tay nghề",
+    "topic": "Unit 3",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 474,
+    "word": "professional",
+    "phonetic": "",
+    "meaning": "chuyên nghiệp",
+    "topic": "Unit 3",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 475,
+    "word": "professionalism",
+    "phonetic": "",
+    "meaning": "tính chuyên nghiệp",
+    "topic": "Unit 3",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 476,
+    "word": "empathic",
+    "phonetic": "",
+    "meaning": "đồng cảm",
+    "topic": "Unit 3",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 477,
+    "word": "enthusiasm",
+    "phonetic": "",
+    "meaning": "sự nhiệt tình",
+    "topic": "Unit 3",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 478,
+    "word": "to set up (the room the projector)",
+    "phonetic": "",
+    "meaning": "thiết lập, sắp đặt (phòng, máy chiếu)",
+    "topic": "Unit 3",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 479,
+    "word": "to check the sound system",
+    "phonetic": "",
+    "meaning": "kiểm tra hệ thống âm thanh",
+    "topic": "Unit 3",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 480,
+    "word": "a podium",
+    "phonetic": "",
+    "meaning": "bục, bục giảng",
+    "topic": "Unit 3",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 481,
+    "word": "a handout",
+    "phonetic": "",
+    "meaning": "bản tin phát đi, tờ rơi",
+    "topic": "Unit 3",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 482,
+    "word": "to hand out the agenda",
+    "phonetic": "",
+    "meaning": "phát ra chương trình nghị sự",
+    "topic": "Unit 3",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 483,
+    "word": "to send out the announcement",
+    "phonetic": "",
+    "meaning": "gửi thông báo",
+    "topic": "Unit 3",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 484,
+    "word": "to put up the signs",
+    "phonetic": "",
+    "meaning": "treo, dán biển báo",
+    "topic": "Unit 3",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 552,
+    "word": "fiction",
+    "phonetic": "",
+    "meaning": "(sách) viễn tưởng",
+    "topic": "Unit 4",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 553,
+    "word": "a novel",
+    "phonetic": "",
+    "meaning": "tiểu thuyết",
+    "topic": "Unit 4",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 554,
+    "word": "a mystery",
+    "phonetic": "",
+    "meaning": "truyện huyền bí",
+    "topic": "Unit 4",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 555,
+    "word": "a thriller",
+    "phonetic": "",
+    "meaning": "truyện kinh dị",
+    "topic": "Unit 4",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 556,
+    "word": "a romance novel",
+    "phonetic": "",
+    "meaning": "tiểu thuyết lãng mạn",
+    "topic": "Unit 4",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 557,
+    "word": "a science fiction book",
+    "phonetic": "",
+    "meaning": "sách khoa học viễn tưởng",
+    "topic": "Unit 4",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 558,
+    "word": "a short story",
+    "phonetic": "",
+    "meaning": "truyện ngắn",
+    "topic": "Unit 4",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 559,
+    "word": "non-fiction",
+    "phonetic": "",
+    "meaning": "tác phẩm phi hư cấu, có thật",
+    "topic": "Unit 4",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 560,
+    "word": "a biography",
+    "phonetic": "",
+    "meaning": "tiểu sử",
+    "topic": "Unit 4",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 561,
+    "word": "an autobiography",
+    "phonetic": "",
+    "meaning": "tự truyện",
+    "topic": "Unit 4",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 562,
+    "word": "a travel book",
+    "phonetic": "",
+    "meaning": "sách du lịch",
+    "topic": "Unit 4",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 563,
+    "word": "a memoir",
+    "phonetic": "",
+    "meaning": "hồi ký",
+    "topic": "Unit 4",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 564,
+    "word": "a self-help book",
+    "phonetic": "",
+    "meaning": "sách tự lực",
+    "topic": "Unit 4",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 565,
+    "word": "a page-turner",
+    "phonetic": "",
+    "meaning": "quyển sách hay",
+    "topic": "Unit 4",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 566,
+    "word": "a cliff-hanger",
+    "phonetic": "",
+    "meaning": "chuyện phiêu lưu ra nhiều kỳ để thu hút người đọc",
+    "topic": "Unit 4",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 567,
+    "word": "a best-seller",
+    "phonetic": "",
+    "meaning": "sách bán chạy nhất",
+    "topic": "Unit 4",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 568,
+    "word": "a fast read",
+    "phonetic": "",
+    "meaning": "sách hay và dễ đọc",
+    "topic": "Unit 4",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 569,
+    "word": "hard to follow",
+    "phonetic": "",
+    "meaning": "khó theo dõi",
+    "topic": "Unit 4",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 570,
+    "word": "trash",
+    "phonetic": "",
+    "meaning": "rác, khó hiểu",
+    "topic": "Unit 4",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 571,
+    "word": "thought-provoking",
+    "phonetic": "",
+    "meaning": "kích thích tư duy",
+    "topic": "Unit 4",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 572,
+    "word": "hilarious",
+    "phonetic": "",
+    "meaning": "vui nhộn",
+    "topic": "Unit 4",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 573,
+    "word": "inspiring",
+    "phonetic": "",
+    "meaning": "truyền cảm hứng",
+    "topic": "Unit 4",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 574,
+    "word": "to curl up with a book",
+    "phonetic": "",
+    "meaning": "cuộn tròn với một quyển sách",
+    "topic": "Unit 4",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 575,
+    "word": "to read aloud",
+    "phonetic": "",
+    "meaning": "đọc to",
+    "topic": "Unit 4",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 576,
+    "word": "to listen to audio books",
+    "phonetic": "",
+    "meaning": "nghe sách nói",
+    "topic": "Unit 4",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 577,
+    "word": "to do puzzles",
+    "phonetic": "",
+    "meaning": "giải câu đố",
+    "topic": "Unit 4",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 578,
+    "word": "to read an article online",
+    "phonetic": "",
+    "meaning": "đọc một bài báo trực tuyến",
+    "topic": "Unit 4",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 579,
+    "word": "to skim though a newspaper",
+    "phonetic": "",
+    "meaning": "đọc lướt qua một tờ báo",
+    "topic": "Unit 4",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 580,
+    "word": "to read e-books",
+    "phonetic": "",
+    "meaning": "đọc sách điện tử",
+    "topic": "Unit 4",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 581,
+    "word": "transition",
+    "phonetic": "",
+    "meaning": "sự chuyển đổi",
+    "topic": "Unit 4",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 582,
+    "word": "fundamentally",
+    "phonetic": "",
+    "meaning": "một cách cơ bản",
+    "topic": "Unit 4",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 583,
+    "word": "evidence",
+    "phonetic": "",
+    "meaning": "bằng chứng",
+    "topic": "Unit 4",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 584,
+    "word": "scanning",
+    "phonetic": "",
+    "meaning": "quét, lướt",
+    "topic": "Unit 4",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 585,
+    "word": "periodicals",
+    "phonetic": "",
+    "meaning": "tạp chí định kỳ",
+    "topic": "Unit 4",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 586,
+    "word": "possibility",
+    "phonetic": "",
+    "meaning": "khả năng (có thể xảy ra)",
+    "topic": "Unit 4",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 587,
+    "word": "fingertips",
+    "phonetic": "",
+    "meaning": "đầu ngón tay",
+    "topic": "Unit 4",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 588,
+    "word": "a search engine",
+    "phonetic": "",
+    "meaning": "công cụ tìm kiếm",
+    "topic": "Unit 4",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 589,
+    "word": "to argue",
+    "phonetic": "",
+    "meaning": "tranh cãi",
+    "topic": "Unit 4",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 590,
+    "word": "to bombard",
+    "phonetic": "",
+    "meaning": "bắn phá",
+    "topic": "Unit 4",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 591,
+    "word": "concentration",
+    "phonetic": "",
+    "meaning": "sự tập trung",
+    "topic": "Unit 4",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 592,
+    "word": "distracted",
+    "phonetic": "",
+    "meaning": "bị mất tập trung",
+    "topic": "Unit 4",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 699,
+    "word": "a disaster",
+    "phonetic": "",
+    "meaning": "thảm họa",
+    "topic": "Unit 5",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 700,
+    "word": "influenza",
+    "phonetic": "",
+    "meaning": "bệnh cúm",
+    "topic": "Unit 5",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 701,
+    "word": "an epidemic",
+    "phonetic": "",
+    "meaning": "dịch bệnh",
+    "topic": "Unit 5",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 702,
+    "word": "famine",
+    "phonetic": "",
+    "meaning": "nạn đói",
+    "topic": "Unit 5",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 703,
+    "word": "a shortage",
+    "phonetic": "",
+    "meaning": "sự thiếu hụt",
+    "topic": "Unit 5",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 704,
+    "word": "a blizzard",
+    "phonetic": "",
+    "meaning": "bão tuyết",
+    "topic": "Unit 5",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 705,
+    "word": "a closure",
+    "phonetic": "",
+    "meaning": "việc đóng cửa",
+    "topic": "Unit 5",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 706,
+    "word": "enormous",
+    "phonetic": "",
+    "meaning": "to lớn",
+    "topic": "Unit 5",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 707,
+    "word": "a casualty",
+    "phonetic": "",
+    "meaning": "thương vong",
+    "topic": "Unit 5",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 708,
+    "word": "severe",
+    "phonetic": "",
+    "meaning": "nghiêm trọng",
+    "topic": "Unit 5",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 709,
+    "word": "severity",
+    "phonetic": "",
+    "meaning": "mức độ nghiêm trọng",
+    "topic": "Unit 5",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 710,
+    "word": "a tornado",
+    "phonetic": "",
+    "meaning": "lốc xoáy",
+    "topic": "Unit 5",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 711,
+    "word": "a hurricane",
+    "phonetic": "",
+    "meaning": "bão",
+    "topic": "Unit 5",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 712,
+    "word": "a typhoon",
+    "phonetic": "",
+    "meaning": "bão nhiệt đới",
+    "topic": "Unit 5",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 713,
+    "word": "a flood",
+    "phonetic": "",
+    "meaning": "lũ lụt",
+    "topic": "Unit 5",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 714,
+    "word": "an earthquake",
+    "phonetic": "",
+    "meaning": "động đất",
+    "topic": "Unit 5",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 715,
+    "word": "a landslide",
+    "phonetic": "",
+    "meaning": "lở đất",
+    "topic": "Unit 5",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 716,
+    "word": "a drought",
+    "phonetic": "",
+    "meaning": "hạn hán",
+    "topic": "Unit 5",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 717,
+    "word": "gigantic",
+    "phonetic": "",
+    "meaning": "khổng lồ",
+    "topic": "Unit 5",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 718,
+    "word": "horrendous",
+    "phonetic": "",
+    "meaning": "kinh khủng",
+    "topic": "Unit 5",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 719,
+    "word": "mild",
+    "phonetic": "",
+    "meaning": "nhẹ",
+    "topic": "Unit 5",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 720,
+    "word": "moderate",
+    "phonetic": "",
+    "meaning": "vừa phải",
+    "topic": "Unit 5",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 721,
+    "word": "deadly",
+    "phonetic": "",
+    "meaning": "chết người",
+    "topic": "Unit 5",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 722,
+    "word": "catastrophic",
+    "phonetic": "",
+    "meaning": "thảm họa",
+    "topic": "Unit 5",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 723,
+    "word": "destruction",
+    "phonetic": "",
+    "meaning": "sự phá hủy",
+    "topic": "Unit 5",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 724,
+    "word": "countless",
+    "phonetic": "",
+    "meaning": "vô số",
+    "topic": "Unit 5",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 725,
+    "word": "injured",
+    "phonetic": "",
+    "meaning": "bị thương",
+    "topic": "Unit 5",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 726,
+    "word": "magnitude",
+    "phonetic": "",
+    "meaning": "độ lớn",
+    "topic": "Unit 5",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 727,
+    "word": "a location",
+    "phonetic": "",
+    "meaning": "vị trí",
+    "topic": "Unit 5",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 728,
+    "word": "construction",
+    "phonetic": "",
+    "meaning": "công trình xây dựng",
+    "topic": "Unit 5",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 729,
+    "word": "a factor",
+    "phonetic": "",
+    "meaning": "nhân tố, yếu tố",
+    "topic": "Unit 5",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 730,
+    "word": "to lessen",
+    "phonetic": "",
+    "meaning": "giảm bớt",
+    "topic": "Unit 5",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 731,
+    "word": "a population",
+    "phonetic": "",
+    "meaning": "dân số",
+    "topic": "Unit 5",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 732,
+    "word": "a preparation",
+    "phonetic": "",
+    "meaning": "sự chuẩn bị",
+    "topic": "Unit 5",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 733,
+    "word": "to supply",
+    "phonetic": "",
+    "meaning": "cung cấp",
+    "topic": "Unit 5",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 734,
+    "word": "to evacuate",
+    "phonetic": "",
+    "meaning": "sơ tán",
+    "topic": "Unit 5",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 735,
+    "word": "an emergency",
+    "phonetic": "",
+    "meaning": "trường hợp khẩn cấp",
+    "topic": "Unit 5",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 736,
+    "word": "a power outage",
+    "phonetic": "",
+    "meaning": "cúp điện",
+    "topic": "Unit 5",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 737,
+    "word": "a shelter",
+    "phonetic": "",
+    "meaning": "nơi trú ẩn",
+    "topic": "Unit 5",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 738,
+    "word": "a first-aid kit",
+    "phonetic": "",
+    "meaning": "bộ sơ cứu",
+    "topic": "Unit 5",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 739,
+    "word": "a flashlight",
+    "phonetic": "",
+    "meaning": "đèn pin",
+    "topic": "Unit 5",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 740,
+    "word": "non-perishable food",
+    "phonetic": "",
+    "meaning": "thực phẩm không hư hỏng, lương khô",
+    "topic": "Unit 5",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 741,
+    "word": "a battery",
+    "phonetic": "",
+    "meaning": "ắc quy",
+    "topic": "Unit 5",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 742,
+    "word": "matches",
+    "phonetic": "",
+    "meaning": "diêm quẹt",
+    "topic": "Unit 5",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 890,
+    "word": "a science laboratory",
+    "phonetic": "",
+    "meaning": "phòng thí nghiệm khoa học",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 891,
+    "word": "a stage scenery",
+    "phonetic": "",
+    "meaning": "khung cảnh trên sân khấu",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 892,
+    "word": "a sales representative",
+    "phonetic": "",
+    "meaning": "đại diện bán hàng",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 893,
+    "word": "social work",
+    "phonetic": "",
+    "meaning": "công tác xã hội",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 894,
+    "word": "qualification",
+    "phonetic": "",
+    "meaning": "trình độ",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 895,
+    "word": "a talent",
+    "phonetic": "",
+    "meaning": "tài năng",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 896,
+    "word": "a skill",
+    "phonetic": "",
+    "meaning": "kỹ năng",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 897,
+    "word": "experience",
+    "phonetic": "",
+    "meaning": "kinh nghiệm",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 898,
+    "word": "knowledge",
+    "phonetic": "",
+    "meaning": "kiến thức",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 899,
+    "word": "a good memory",
+    "phonetic": "",
+    "meaning": "trí nhớ tốt",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 900,
+    "word": "an artistic ability",
+    "phonetic": "",
+    "meaning": "khả năng nghệ thuật",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 901,
+    "word": "logical thinking",
+    "phonetic": "",
+    "meaning": "tư duy logic",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 902,
+    "word": "a compassion",
+    "phonetic": "",
+    "meaning": "lòng nhân ái",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 903,
+    "word": "manual dexterity",
+    "phonetic": "",
+    "meaning": "sự khéo tay",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 904,
+    "word": "common sense",
+    "phonetic": "",
+    "meaning": "lẽ thường, ý thức chung",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 905,
+    "word": "an athletic ability",
+    "phonetic": "",
+    "meaning": "khả năng thể thao",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 906,
+    "word": "leadership skills",
+    "phonetic": "",
+    "meaning": "kỹ năng lãnh đạo",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 907,
+    "word": "to demonstrate",
+    "phonetic": "",
+    "meaning": "chứng minh, chứng tỏ",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 908,
+    "word": "to accomplish",
+    "phonetic": "",
+    "meaning": "hoàn thành",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 909,
+    "word": "a rank = position",
+    "phonetic": "",
+    "meaning": "hạng, vị trí",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 910,
+    "word": "to prioritize",
+    "phonetic": "",
+    "meaning": "ưu tiên",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 911,
+    "word": "strategic",
+    "phonetic": "",
+    "meaning": "thuộc về chiến lược",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 912,
+    "word": "to highlight",
+    "phonetic": "",
+    "meaning": "đánh dấu",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 913,
+    "word": "to internalize",
+    "phonetic": "",
+    "meaning": "nội bộ hóa",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 914,
+    "word": "a chance = an opportunity",
+    "phonetic": "",
+    "meaning": "cơ hội",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 915,
+    "word": "to make a living",
+    "phonetic": "",
+    "meaning": "kiếm sống",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 916,
+    "word": "to pass the exam",
+    "phonetic": "",
+    "meaning": "thi đậu",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 917,
+    "word": "make up one’s mind",
+    "phonetic": "",
+    "meaning": "quyết định",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 918,
+    "word": "keep something in mind",
+    "phonetic": "",
+    "meaning": "ghi nhớ",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 919,
+    "word": "“What’s on your mind?”",
+    "phonetic": "",
+    "meaning": "Bạn đang lo lắng gì vậy?",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 920,
+    "word": "settle on",
+    "phonetic": "",
+    "meaning": "quyết định cuối cùng",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 921,
+    "word": "to change one’s mind",
+    "phonetic": "",
+    "meaning": "thay đổi ý kiến",
+    "topic": "Unit 6",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 1113,
+    "word": "a tradition",
+    "phonetic": "",
+    "meaning": "truyền thống",
+    "topic": "Unit 7",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 1114,
+    "word": "traditional",
+    "phonetic": "",
+    "meaning": "theo truyền thống",
+    "topic": "Unit 7",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 1115,
+    "word": "a religion",
+    "phonetic": "",
+    "meaning": "tôn giáo",
+    "topic": "Unit 7",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 1116,
+    "word": "religious",
+    "phonetic": "",
+    "meaning": "theo tôn giáo",
+    "topic": "Unit 7",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 1117,
+    "word": "seasonal",
+    "phonetic": "",
+    "meaning": "theo mùa",
+    "topic": "Unit 7",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 1118,
+    "word": "gorgeous",
+    "phonetic": "",
+    "meaning": "tuyệt đẹp",
+    "topic": "Unit 7",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 1119,
+    "word": "to commemorate",
+    "phonetic": "",
+    "meaning": "kỉ niệm",
+    "topic": "Unit 7",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 1120,
+    "word": "to harvest",
+    "phonetic": "",
+    "meaning": "thu hoạch",
+    "topic": "Unit 7",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 1121,
+    "word": "ancestor",
+    "phonetic": "",
+    "meaning": "tổ tiên",
+    "topic": "Unit 7",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 1122,
+    "word": "to mob",
+    "phonetic": "",
+    "meaning": "xô đẩy",
+    "topic": "Unit 7",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 1123,
+    "word": "to celebrate",
+    "phonetic": "",
+    "meaning": "ăn mừng",
+    "topic": "Unit 7",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 1124,
+    "word": "to set off firework",
+    "phonetic": "",
+    "meaning": "bắn pháo hoa",
+    "topic": "Unit 7",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 1125,
+    "word": "to march in parades",
+    "phonetic": "",
+    "meaning": "đi diễu hành",
+    "topic": "Unit 7",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 1126,
+    "word": "to have picnics",
+    "phonetic": "",
+    "meaning": "đi dã ngoại",
+    "topic": "Unit 7",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 1127,
+    "word": "to pray",
+    "phonetic": "",
+    "meaning": "cầu nguyện",
+    "topic": "Unit 7",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 1128,
+    "word": "to send cards",
+    "phonetic": "",
+    "meaning": "gửi thiệp",
+    "topic": "Unit 7",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 1129,
+    "word": "to give gifts",
+    "phonetic": "",
+    "meaning": "tặng quà",
+    "topic": "Unit 7",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 1130,
+    "word": "to wish each other well",
+    "phonetic": "",
+    "meaning": "chúc nhau tốt lành",
+    "topic": "Unit 7",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 1131,
+    "word": "to remember the dead",
+    "phonetic": "",
+    "meaning": "tưởng nhớ người chết",
+    "topic": "Unit 7",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 1132,
+    "word": "to wear costumes",
+    "phonetic": "",
+    "meaning": "mặc trang phục",
+    "topic": "Unit 7",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 1133,
+    "word": "fasting",
+    "phonetic": "",
+    "meaning": "việc ăn chay",
+    "topic": "Unit 7",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 1134,
+    "word": "to abstain",
+    "phonetic": "",
+    "meaning": "kiêng cữ",
+    "topic": "Unit 7",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 1135,
+    "word": "a worshipper",
+    "phonetic": "",
+    "meaning": "người thờ cúng, người sùng bái (tôn giáo)",
+    "topic": "Unit 7",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 1136,
+    "word": "firecrackers",
+    "phonetic": "",
+    "meaning": "pháo hoa",
+    "topic": "Unit 7",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 1137,
+    "word": "to memorialize",
+    "phonetic": "",
+    "meaning": "tưởng niệm",
+    "topic": "Unit 7",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 1138,
+    "word": "customary",
+    "phonetic": "",
+    "meaning": "theo phong tục",
+    "topic": "Unit 7",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 1139,
+    "word": "an engagement",
+    "phonetic": "",
+    "meaning": "hôn ước, lễ đính hôn",
+    "topic": "Unit 7",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 1140,
+    "word": "a marriage ceremony",
+    "phonetic": "",
+    "meaning": "hôn lễ",
+    "topic": "Unit 7",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 1141,
+    "word": "a wedding",
+    "phonetic": "",
+    "meaning": "lễ cưới",
+    "topic": "Unit 7",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 1142,
+    "word": "a reception",
+    "phonetic": "",
+    "meaning": "tiệc chiêu đãi",
+    "topic": "Unit 7",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 1143,
+    "word": "a honeymoon",
+    "phonetic": "",
+    "meaning": "tuần trăng mật",
+    "topic": "Unit 7",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 1144,
+    "word": "a fiancé",
+    "phonetic": "",
+    "meaning": "chồng chưa cưới, hôn phu",
+    "topic": "Unit 7",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 1145,
+    "word": "a fiancée",
+    "phonetic": "",
+    "meaning": "vợ chưa cưới, hôn thê",
+    "topic": "Unit 7",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 1146,
+    "word": "a bride",
+    "phonetic": "",
+    "meaning": "cô dâu",
+    "topic": "Unit 7",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 1147,
+    "word": "a groom",
+    "phonetic": "",
+    "meaning": "chú rể",
+    "topic": "Unit 7",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 1148,
+    "word": "newlyweds",
+    "phonetic": "",
+    "meaning": "vợ chồng mới cưới",
+    "topic": "Unit 7",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 1149,
+    "word": "“It takes place in...”",
+    "phonetic": "",
+    "meaning": "nó diễn ra ở ...",
+    "topic": "Unit 7",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
+  },
+  {
+    "id": 1150,
+    "word": "get together with",
+    "phonetic": "",
+    "meaning": "tụ họp",
+    "topic": "Unit 7",
+    "example": "",
+    "example_vi": "",
+    "course": "topnotch3"
   }
 ]

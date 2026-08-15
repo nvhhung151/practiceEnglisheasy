@@ -430,5 +430,67 @@
     "example_vi": "Trời lạnh đến mức chúng tôi ở trong nhà.",
     "usage": "Nói về mức độ dẫn đến kết quả.",
     "notes": "Summit 1 — có thể ôn cùng intensifiers"
-  }
+  },
+  {
+    "id": 37,
+    "unit": "Unit 10",
+    "name": "Future plans with be going to",
+    "pattern": "be going to + V",
+    "meaning": "dự định trong tương lai",
+    "form": "S + am/is/are going to + bare infinitive",
+    "example": "I am going to apply for a new job next month.",
+    "example_vi": "Tôi dự định nộp đơn xin việc mới vào tháng tới.",
+    "usage": "Dùng cho kế hoạch hoặc dự định đã có trước thời điểm nói.",
+    "notes": "Unit 10 — Careers and future plans"
+  },
+  {
+    "id": 38,
+    "unit": "Unit 10",
+    "name": "Future prediction with will",
+    "pattern": "will + V",
+    "meaning": "dự đoán hoặc quyết định tức thì về tương lai",
+    "form": "S + will + bare infinitive",
+    "example": "I think she will get the promotion.",
+    "example_vi": "Tôi nghĩ cô ấy sẽ được thăng chức.",
+    "usage": "Dùng cho dự đoán, lời hứa và quyết định được đưa ra ngay lúc nói.",
+    "notes": "Unit 10"
+  },
+  {
+    "id": 39,
+    "unit": "Unit 10",
+    "name": "Advice with should",
+    "pattern": "should + V",
+    "meaning": "lời khuyên",
+    "form": "S + should / should not + bare infinitive",
+    "example": "You should prepare carefully for the interview.",
+    "example_vi": "Bạn nên chuẩn bị kỹ cho buổi phỏng vấn.",
+    "usage": "Dùng để đưa ra lời khuyên; should not/shouldn't dùng để khuyên không nên làm.",
+    "notes": "Unit 10"
+  },
+  {
+    "id": 40,
+    "unit": "Unit 10",
+    "name": "First conditional",
+    "pattern": "If + present simple, will + V",
+    "meaning": "câu điều kiện loại 1 — kết quả có thể xảy ra trong tương lai",
+    "form": "If + S + V(s/es), S + will + V",
+    "example": "If I get the job, I will move to the city.",
+    "example_vi": "Nếu tôi nhận được công việc, tôi sẽ chuyển đến thành phố.",
+    "usage": "Dùng khi điều kiện có khả năng xảy ra ở hiện tại hoặc tương lai.",
+    "notes": "Unit 10"
+  },
+  {"id":41,"unit":"Unit 1","name":"Tag questions","pattern":"Statement, auxiliary + subject?","meaning":"Câu hỏi đuôi để xác nhận hoặc khuyến khích trò chuyện","form":"Positive statement + negative tag / negative statement + positive tag","example":"It's a beautiful day, isn't it?","example_vi":"Hôm nay trời đẹp nhỉ?","usage":"Động từ và thì ở câu hỏi đuôi phải phù hợp với mệnh đề chính.","notes":"Top Notch 3 ENT303 - Make Small Talk","course":"topnotch3"},
+  {"id":42,"unit":"Unit 1","name":"Past perfect","pattern":"had + past participle","meaning":"Thì quá khứ hoàn thành","form":"S + had (not) + V3/ed","example":"The meeting had ended before we arrived.","example_vi":"Cuộc họp đã kết thúc trước khi chúng tôi đến.","usage":"Diễn tả hành động xảy ra trước một hành động hoặc mốc thời gian trong quá khứ.","notes":"Top Notch 3 ENT303","course":"topnotch3"},
+  {"id":43,"unit":"Unit 2","name":"Drawing conclusions with must","pattern":"must + base verb","meaning":"Rút ra kết luận có cơ sở","form":"S + must (not) + V","example":"That must hurt.","example_vi":"Chắc hẳn điều đó đau lắm.","usage":"Dùng must để nói điều bạn suy luận là đúng.","notes":"Top Notch 3 ENT303 - Health Matters","course":"topnotch3"},
+  {"id":44,"unit":"Unit 2","name":"Future ability and possibility","pattern":"will be able to / may / might + V","meaning":"Khả năng tương lai và khả năng có thể xảy ra","form":"will be able to + V; may/might + V","example":"The doctor may be able to see you today.","example_vi":"Bác sĩ có thể gặp bạn hôm nay.","usage":"Will be able to diễn tả khả năng tương lai; may/might diễn tả khả năng.","notes":"Top Notch 3 ENT303","course":"topnotch3"},
+  {"id":45,"unit":"Unit 3","name":"Active causative","pattern":"get + object + to V / have + object + V","meaning":"Cấu trúc nhờ, bảo ai làm việc gì","form":"get + O + to-infinitive; have + O + bare infinitive","example":"I'll get the waiter to correct the check.","example_vi":"Tôi sẽ nhờ người phục vụ sửa lại hóa đơn.","usage":"Get thường nhấn mạnh sự thuyết phục; have dùng khi chỉ đạo ai làm việc.","notes":"Top Notch 3 ENT303 - Getting Things Done","course":"topnotch3"},
+  {"id":46,"unit":"Unit 3","name":"Passive causative","pattern":"have + object + past participle","meaning":"Nhờ ai làm gì, nhấn mạnh vào việc được làm","form":"S + have + O + V3/ed","example":"We had the office painted last week.","example_vi":"Chúng tôi đã cho sơn văn phòng vào tuần trước.","usage":"Dùng khi thuê hoặc sắp xếp để người khác thực hiện việc gì.","notes":"Top Notch 3 ENT303","course":"topnotch3"},
+  {"id":47,"unit":"Unit 4","name":"Noun clauses","pattern":"verb/adjective + (that) + clause","meaning":"Mệnh đề danh từ","form":"S + think/know/hope + (that) + S + V","example":"I think that Junot Diaz's novels are fantastic.","example_vi":"Tôi nghĩ rằng các tiểu thuyết của Junot Diaz rất tuyệt.","usage":"That thường có thể lược bỏ khi mệnh đề làm tân ngữ.","notes":"Top Notch 3 ENT303 - Reading for Pleasure","course":"topnotch3"},
+  {"id":48,"unit":"Unit 4","name":"Embedded questions","pattern":"question word/if + subject + verb","meaning":"Câu hỏi gián tiếp","form":"S + V + if/whether + S + V; S + V + wh-word + S + V","example":"Do you know where the writer is from?","example_vi":"Bạn có biết tác giả đến từ đâu không?","usage":"Giữ trật tự chủ ngữ - động từ bình thường, không đảo ngữ.","notes":"Top Notch 3 ENT303","course":"topnotch3"},
+  {"id":49,"unit":"Unit 5","name":"Reported imperatives","pattern":"told/asked + object + (not) to V","meaning":"Mệnh lệnh trong lời nói gián tiếp","form":"S + told/asked + O + to V / not to V","example":"She asked me to call her when I got home.","example_vi":"Cô ấy nhờ tôi gọi cho cô ấy khi tôi về nhà.","usage":"Chuyển mệnh lệnh trực tiếp thành to-infinitive; đổi đại từ cho phù hợp.","notes":"Top Notch 3 ENT303 - Natural Disasters","course":"topnotch3"},
+  {"id":50,"unit":"Unit 5","name":"Reported speech with say and tell","pattern":"said/told + (that) + backshifted clause","meaning":"Câu tường thuật với sự lùi thì","form":"present → past; will → would; can → could","example":"They said that the weather was awful.","example_vi":"Họ nói rằng thời tiết rất tệ.","usage":"Tell cần có người nghe; khi động từ tường thuật ở quá khứ thì thường lùi thì.","notes":"Top Notch 3 ENT303","course":"topnotch3"},
+  {"id":51,"unit":"Unit 6","name":"Changed plans in the past","pattern":"was/were going to + V; thought + would + V","meaning":"Dự định hoặc kế hoạch đã thay đổi trong quá khứ","form":"S + was/were going to + V","example":"I was going to get married, but I didn't.","example_vi":"Tôi đã định kết hôn, nhưng đã không làm vậy.","usage":"Would dùng trong mệnh đề danh từ sau thought, believed hoặc said.","notes":"Top Notch 3 ENT303 - Life Plans","course":"topnotch3"},
+  {"id":52,"unit":"Unit 6","name":"Perfect modals","pattern":"modal + have + past participle","meaning":"Động từ khiếm khuyết hoàn thành","form":"should/may/might/could/would/must + have + V3","example":"She must have gone home early.","example_vi":"Chắc hẳn cô ấy đã về nhà sớm.","usage":"Diễn tả hối tiếc, khả năng, kết luận hoặc điều chắc chắn về quá khứ.","notes":"Top Notch 3 ENT303","course":"topnotch3"},
+  {"id":53,"unit":"Unit 7","name":"Relative clauses - subject","pattern":"noun + who/that + verb","meaning":"Mệnh đề quan hệ với đại từ làm chủ ngữ","form":"people + who/that + V; things + that + V","example":"A mariachi singer is someone who sings traditional music.","example_vi":"Ca sĩ mariachi là người hát nhạc truyền thống.","usage":"Who/that làm chủ ngữ trong mệnh đề quan hệ không được lược bỏ.","notes":"Top Notch 3 ENT303 - Holidays and Traditions","course":"topnotch3"},
+  {"id":54,"unit":"Unit 7","name":"Relative clauses - object","pattern":"noun + who/whom/that + subject + verb","meaning":"Mệnh đề quan hệ với đại từ làm tân ngữ","form":"people + who/whom/that + S + V; things + that + S + V","example":"The people that you invite should bring gifts.","example_vi":"Những người bạn mời nên mang quà.","usage":"Đại từ quan hệ làm tân ngữ có thể lược bỏ trong văn nói.","notes":"Top Notch 3 ENT303","course":"topnotch3"}
 ]

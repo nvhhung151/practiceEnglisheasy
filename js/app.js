@@ -3,6 +3,59 @@
 const STORAGE_KEY = 'english_easy_vocab'; // alias key (quiz-manager dùng VOCAB_STORAGE_KEY)
 
 /** Nạp từ vựng: file data/vocabulary.json (333 từ Unit 1–9) + cache localStorage */
+let currentCourseId = 'summit1';
+let currentCourse = null;
+let availableCourses = [];
+
+function getItemCourse(item) {
+  if (item.course) return item.course;
+  return (item.topic === 'Unit 10' || item.unit === 'Unit 10') ? 'careers' : 'summit1';
+}
+
+async function loadCourses() {
+  try {
+    const res = await fetch('data/courses.json', { cache: 'no-store' });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    return await res.json();
+  } catch (e) {
+    console.error('Cannot load courses.json', e);
+    return [];
+  }
+}
+
+async function resolveCurrentCourse() {
+  const courses = await loadCourses();
+  availableCourses = courses;
+  const requestedId = new URLSearchParams(window.location.search).get('course') || 'summit1';
+  currentCourse = courses.find(course => course.id === requestedId) || courses[0] || { id: 'summit1', name: 'Summit 1' };
+  currentCourseId = currentCourse.id;
+  document.querySelectorAll('a[href="vocabulary.html"]').forEach(link => { link.href = courseUrl('vocabulary.html'); });
+  document.querySelectorAll('a[href="structures.html"]').forEach(link => { link.href = courseUrl('structures.html'); });
+  document.querySelectorAll('a[href="quiz.html"]').forEach(link => { link.href = courseUrl('quiz.html'); });
+  return currentCourse;
+}
+
+function renderCourseSwitcher() {
+  const container = document.getElementById('course-switcher');
+  if (!container || availableCourses.length === 0) return;
+  const page = window.location.pathname.split('/').pop() || 'vocabulary.html';
+  container.innerHTML = `
+    <div class="course-switcher-label">Đang học: <strong>${escapeHtml(currentCourse.name)}</strong></div>
+    <div class="course-switcher-actions">
+      ${availableCourses.map(course => `
+        <a href="${page}?course=${encodeURIComponent(course.id)}"
+           class="btn btn-sm ${course.id === currentCourseId ? 'btn-primary' : 'btn-outline'}">
+          ${escapeHtml(course.name)}
+        </a>
+      `).join('')}
+    </div>
+  `;
+}
+
+function courseUrl(page) {
+  return `${page}?course=${encodeURIComponent(currentCourseId)}`;
+}
+
 async function loadVocabulary() {
   if (typeof bootstrapAppData === 'function' && !isDataVersionCurrent()) {
     const { vocab } = await bootstrapAppData();
@@ -108,6 +161,54 @@ function escapeAttr(str) {
     .replace(/>/g, '&gt;');
 }
 
+function getVocabularyExample(v) {
+  if (v.example) {
+    return { sentence: v.example, translation: v.example_vi || '' };
+  }
+  const word = String(v.word || '').trim();
+  const meaning = String(v.meaning || '').trim();
+  const examples = {
+    'etiquette': ['Good etiquette helps people feel comfortable at dinner.', 'Phép lịch sự tốt giúp mọi người cảm thấy thoải mái trong bữa tối.'],
+    'promptly': ['Please reply promptly to the customer\'s email.', 'Vui lòng trả lời email của khách hàng một cách nhanh chóng.'],
+    'slacks': ['He wore slacks and a shirt to the interview.', 'Anh ấy mặc quần tây và áo sơ mi đến buổi phỏng vấn.'],
+    'to refrain': ['Please refrain from using your phone during the meeting.', 'Vui lòng hạn chế sử dụng điện thoại trong cuộc họp.'],
+    'dietary': ['The restaurant can meet your dietary needs.', 'Nhà hàng có thể đáp ứng nhu cầu ăn uống của bạn.'],
+    'a requirement': ['The requirements for this job are very high.', 'Các yêu cầu cho công việc này rất cao.'],
+    'cultural literacy': ['Cultural literacy helps us understand people from other countries.', 'Hiểu biết văn hóa giúp chúng ta hiểu người từ các quốc gia khác.'],
+    'a table manner': ['Good table manners are important at a formal dinner.', 'Nguyên tắc bàn ăn tốt rất quan trọng trong bữa tối trang trọng.'],
+    'punctuality': ['Punctuality is important when you meet a client.', 'Sự đúng giờ rất quan trọng khi bạn gặp khách hàng.'],
+    'impolite': ['It is impolite to interrupt someone who is speaking.', 'Cắt lời người đang nói là bất lịch sự.'],
+    'offensive': ['That joke may be offensive to some people.', 'Câu đùa đó có thể gây phản cảm với một số người.'],
+    'customary': ['It is customary to bring a gift to a wedding.', 'Theo phong tục, người ta mang quà đến đám cưới.'],
+    'a taboo': ['In some cultures, this topic is a taboo.', 'Trong một số nền văn hóa, chủ đề này là điều cấm kỵ.'],
+    'conservative': ['Her parents have conservative ideas about dating.', 'Bố mẹ cô ấy có quan điểm bảo thủ về việc hẹn hò.'],
+    'a workforce': ['The company needs a skilled workforce.', 'Công ty cần một lực lượng lao động có kỹ năng.'],
+    'respectful': ['Students should be respectful to their teachers.', 'Học sinh nên kính trọng giáo viên của mình.'],
+    'dating': ['They have been dating for six months.', 'Họ đã hẹn hò được sáu tháng.'],
+    'a curfew': ['My parents set a curfew of ten o\'clock.', 'Bố mẹ tôi đặt giờ giới nghiêm là mười giờ.'],
+    'a double standard': ['It is unfair to use a double standard for men and women.', 'Dùng tiêu chuẩn kép cho nam và nữ là không công bằng.'],
+    'strict = serious': ['Our teacher is strict about homework deadlines.', 'Giáo viên của chúng tôi nghiêm khắc về hạn nộp bài tập.'],
+    'to address': ['Please address the manager as Mr. Long.', 'Vui lòng gọi người quản lý là ông Long.'],
+    'grounded': ['He was grounded after coming home late.', 'Cậu ấy bị cấm ra ngoài sau khi về nhà muộn.'],
+    'to allow': ['The school does not allow students to smoke.', 'Trường không cho phép học sinh hút thuốc.'],
+    'a custom': ['Removing shoes before entering a house is a local custom.', 'Cởi giày trước khi vào nhà là một tập quán địa phương.'],
+    'old-fashioned': ['Some people think this rule is old-fashioned.', 'Một số người nghĩ quy tắc này đã lỗi thời.']
+  };
+  if (examples[word]) {
+    return { sentence: examples[word][0], translation: examples[word][1] };
+  }
+  if (word.startsWith('to ')) {
+    return {
+      sentence: `I need ${word} before the deadline.`,
+      translation: `Tôi cần ${meaning} trước hạn chót.`
+    };
+  }
+  return {
+    sentence: `We discussed ${word} in class today.`,
+    translation: `Hôm nay chúng tôi thảo luận về ${meaning} trong lớp.`
+  };
+}
+
 /** Nút nghe an toàn — KHÔNG dùng onclick + JSON.stringify (gãy HTML/JS) */
 function speakButton(text, label, extraClass) {
   const t = String(text ?? '').trim();
@@ -127,7 +228,7 @@ function shuffle(arr) {
 }
 
 // ===== HOME PAGE =====
-async function initHome() {
+async function legacyInitHome() {
   const vocab = await loadVocabulary();
   const topics = getTopics(vocab);
   const grid = document.getElementById('topics-grid');
@@ -175,13 +276,86 @@ async function initHome() {
   }
 }
 
+async function initHome() {
+  const courses = await loadCourses();
+  const grid = document.getElementById('courses-grid');
+  if (!grid) return;
+  grid.innerHTML = courses.map(course => `
+    <a href="course.html?course=${encodeURIComponent(course.id)}" class="topic-card course-card">
+      <span class="course-card-kicker">Giáo trình</span>
+      <h3>${escapeHtml(course.name)}</h3>
+      <span>${escapeHtml(course.description || '')}</span>
+      <span class="course-card-link">Khám phá lộ trình</span>
+    </a>
+  `).join('');
+}
+
+async function initCourseHome() {
+  const course = await resolveCurrentCourse();
+  const [vocab, structures, quizzes] = await Promise.all([
+    loadVocabulary(), loadStructuresData(), typeof ensureQuizzesLoaded === 'function' ? ensureQuizzesLoaded() : Promise.resolve([])
+  ]);
+  const courseVocab = vocab.filter(item => getItemCourse(item) === course.id);
+  const courseStructures = structures.filter(item => getItemCourse(item) === course.id);
+  const courseQuizzes = quizzes.filter(item => getItemCourse(item) === course.id);
+
+  document.getElementById('course-name').textContent = course.name;
+  document.getElementById('course-description').textContent = course.description || '';
+  document.getElementById('nav-vocabulary').href = courseUrl('vocabulary.html');
+  document.getElementById('nav-structures').href = courseUrl('structures.html');
+  document.getElementById('nav-quiz').href = courseUrl('quiz.html');
+
+  const unitTitles = {
+    topnotch3: {
+      'Unit 1': 'Make Small Talk',
+      'Unit 2': 'Health Matters',
+      'Unit 3': 'Getting Things Done',
+      'Unit 4': 'Reading for Pleasure',
+      'Unit 5': 'Natural Disasters',
+      'Unit 6': 'Life Plans',
+      'Unit 7': 'Holidays and Traditions'
+    }
+  };
+  const units = sortUnits([...new Set([
+    ...courseVocab.map(item => item.topic),
+    ...courseStructures.map(item => item.unit)
+  ])]);
+  const title = document.getElementById('course-progress-title');
+  if (title) title.textContent = course.id === 'summit1'
+    ? 'Học theo Unit - Summit 1'
+    : 'Lộ trình học theo Unit';
+
+  document.getElementById('course-learning-grid').innerHTML = units.map(unit => {
+    const vocabCount = courseVocab.filter(item => item.topic === unit).length;
+    const structureCount = courseStructures.filter(item => item.unit === unit).length;
+    const quizCount = courseQuizzes.filter(item => item.topic === unit).length;
+    const unitLabel = unitTitles[course.id]?.[unit] || unit;
+    return `
+      <article class="topic-card course-unit-card">
+        <h3>${escapeHtml(unit)}</h3>
+        ${unitLabel !== unit ? `<p class="course-unit-topic">${escapeHtml(unitLabel)}</p>` : ''}
+        <span>${vocabCount} từ vựng · ${structureCount} grammar · ${quizCount} quiz</span>
+        <div class="course-unit-actions">
+          <a class="btn btn-outline btn-sm" href="${courseUrl('vocabulary.html')}&topic=${encodeURIComponent(unit)}">Từ vựng</a>
+          <a class="btn btn-outline btn-sm" href="${courseUrl('structures.html')}&unit=${encodeURIComponent(unit)}">Grammar</a>
+          <a class="btn btn-primary btn-sm" href="${courseUrl('quiz.html')}&topic=${encodeURIComponent(unit)}">Quiz</a>
+        </div>
+      </article>
+    `;
+  }).join('');
+}
+
 // ===== VOCABULARY PAGE =====
 let currentVocab = [];
 let filteredVocab = [];
 let flashIndex = 0;
 
 async function initVocabulary() {
-  currentVocab = await loadVocabulary();
+  await resolveCurrentCourse();
+  renderCourseSwitcher();
+  currentVocab = (await loadVocabulary()).filter(item => getItemCourse(item) === currentCourseId);
+  const heading = document.querySelector('.page-header h1');
+  if (heading) heading.textContent = `Từ vựng — ${currentCourse.name}`;
   const urlParams = new URLSearchParams(window.location.search);
   const topic = urlParams.get('topic');
 
@@ -228,18 +402,22 @@ function renderWordList() {
   }
 
   list.innerHTML = filteredVocab.map(v => `
+    ${(() => {
+      const example = getVocabularyExample(v);
+      return `
     <div class="word-card">
       <div class="word-info">
         <h3>${escapeHtml(v.word)}</h3>
         <div class="phonetic">${escapeHtml(v.phonetic || '')}</div>
         <div class="meaning">${escapeHtml(v.meaning)}</div>
-        ${v.example ? `<div class="example">"${escapeHtml(v.example)}" <br><small>${escapeHtml(v.example_vi || '')}</small></div>` : ''}
+        <div class="example">"${escapeHtml(example.sentence)}"<br><small>${escapeHtml(example.translation)}</small></div>
       </div>
       <div class="word-actions">
         ${speakButton(v.word, '🔊 Nghe')}
         <span style="font-size:0.85rem;color:#94a3b8;">${escapeHtml(v.topic)}</span>
       </div>
-    </div>
+    </div>`;
+    })()}
   `).join('');
 }
 
@@ -273,6 +451,7 @@ function renderFlashcard() {
   }
 
   const v = filteredVocab[flashIndex];
+  const example = getVocabularyExample(v);
   card.classList.remove('flipped');
   card.innerHTML = `
     <div class="flashcard-face flashcard-front">
@@ -282,7 +461,8 @@ function renderFlashcard() {
     </div>
     <div class="flashcard-face flashcard-back">
       <div class="meaning">${escapeHtml(v.meaning)}</div>
-      ${v.example ? `<div class="example">"${escapeHtml(v.example)}"</div><div style="margin-top:6px;font-size:0.95rem;color:#64748b;">${escapeHtml(v.example_vi || '')}</div>` : ''}
+      <div class="example">"${escapeHtml(example.sentence)}"</div>
+      <div style="margin-top:6px;font-size:0.95rem;color:#64748b;">${escapeHtml(example.translation)}</div>
     </div>
   `;
 
@@ -311,7 +491,11 @@ let filteredStructures = [];
 let structFlashIndex = 0;
 
 async function initStructures() {
-  allStructures = await loadStructuresData();
+  await resolveCurrentCourse();
+  renderCourseSwitcher();
+  allStructures = (await loadStructuresData()).filter(item => getItemCourse(item) === currentCourseId);
+  const heading = document.querySelector('.page-header h1');
+  if (heading) heading.textContent = `Cấu trúc câu — ${currentCourse.name}`;
   const urlParams = new URLSearchParams(window.location.search);
   const unit = urlParams.get('unit');
 
@@ -473,8 +657,12 @@ let timerEnabled = false;
 let quizFinished = false;
 
 async function prepareQuizVocab() {
-  allVocabForQuiz = await loadVocabulary();
-  allStructuresForQuiz = await loadStructuresData();
+  await resolveCurrentCourse();
+  renderCourseSwitcher();
+  allVocabForQuiz = (await loadVocabulary()).filter(item => getItemCourse(item) === currentCourseId);
+  allStructuresForQuiz = (await loadStructuresData()).filter(item => getItemCourse(item) === currentCourseId);
+  const heading = document.querySelector('.page-header h1');
+  if (heading) heading.textContent = `Luyện tập — ${currentCourse.name}`;
   window._allVocab = allVocabForQuiz;
   if (typeof ensureQuizzesLoaded === 'function') {
     await ensureQuizzesLoaded();
@@ -500,7 +688,10 @@ function renderUserQuizList() {
   if (section) section.style.display = 'block';
   if (!container) return;
 
-  const quizzes = typeof loadQuizzes === 'function' ? loadQuizzes() : [];
+  const selectedTopic = new URLSearchParams(window.location.search).get('topic') || '';
+  const quizzes = (typeof loadQuizzes === 'function' ? loadQuizzes() : [])
+    .filter(item => getItemCourse(item) === currentCourseId)
+    .filter(item => !selectedTopic || item.topic === selectedTopic);
 
   if (quizzes.length === 0) {
     container.innerHTML = `
@@ -823,9 +1014,9 @@ function showResult(timedOut) {
   const isStruct = currentQuizMeta?.type === 'structure';
   const reviewLink = topic
     ? (isStruct
-      ? `structures.html?unit=${encodeURIComponent(topic)}`
-      : `vocabulary.html?topic=${encodeURIComponent(topic)}`)
-    : (isStruct ? 'structures.html' : 'vocabulary.html');
+      ? `${courseUrl('structures.html')}&unit=${encodeURIComponent(topic)}`
+      : `${courseUrl('vocabulary.html')}&topic=${encodeURIComponent(topic)}`)
+    : courseUrl(isStruct ? 'structures.html' : 'vocabulary.html');
   const reviewLabel = isStruct ? 'Ôn cấu trúc unit này' : 'Ôn từ unit này';
 
   section.innerHTML = `
@@ -887,6 +1078,8 @@ document.addEventListener('DOMContentLoaded', async () => {
   const path = window.location.pathname;
   if (path.includes('index.html') || path.endsWith('/') || path.endsWith('practiceEnglisheasy')) {
     initHome();
+  } else if (path.includes('course.html')) {
+    initCourseHome();
   } else if (path.includes('vocabulary.html')) {
     initVocabulary();
   } else if (path.includes('structures.html')) {

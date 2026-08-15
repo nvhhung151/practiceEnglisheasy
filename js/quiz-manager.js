@@ -4,7 +4,7 @@ const QUIZ_STORAGE_KEY = 'english_easy_quizzes';
 const VOCAB_STORAGE_KEY = 'english_easy_vocab';
 const STRUCTURE_STORAGE_KEY = 'english_easy_structures';
 /** Tăng version khi ship data mới trên GitHub → trình duyệt tự nạp lại file JSON */
-const DATA_VERSION = '2026-07-25-v3-speak-quizcount';
+const DATA_VERSION = '2026-08-15-v7-topnotch3-quiz15';
 const DATA_VERSION_KEY = 'english_easy_data_version';
 
 function isDataVersionCurrent() {
@@ -129,17 +129,17 @@ async function ensureQuizzesLoaded(forceFile = false) {
  * Tạo bài quiz (Admin)
  * @param {'vocab'|'structure'} type
  */
-function createQuiz(title, topic, count, timerSeconds = 0, type = 'vocab') {
+function createQuiz(title, topic, count, timerSeconds = 0, type = 'vocab', course = 'summit1') {
   const quizzes = loadQuizzesSync();
   type = type === 'structure' ? 'structure' : 'vocab';
 
   let pool;
   if (type === 'structure') {
     const structures = loadStructuresSync();
-    pool = topic ? structures.filter(s => s.unit === topic) : structures;
+    pool = structures.filter(s => (s.course || 'summit1') === course && (!topic || s.unit === topic));
   } else {
     const vocab = loadVocab();
-    pool = topic ? vocab.filter(v => v.topic === topic) : vocab;
+    pool = vocab.filter(v => (v.course || 'summit1') === course && (!topic || v.topic === topic));
   }
 
   const minNeed = type === 'structure' ? 2 : 4;
@@ -161,6 +161,7 @@ function createQuiz(title, topic, count, timerSeconds = 0, type = 'vocab') {
     id: Date.now(),
     title: title || `${topic || 'Tất cả'} - ${typeLabel} - ${count} câu`,
     type,
+    course,
     topic: topic || '',
     count,
     timerSeconds,

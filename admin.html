@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Admin - English Easy</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css?v=2">
   <style>
     .admin-tabs {
       display: flex;
@@ -46,7 +46,7 @@
 </head>
 <body>
   <header class="navbar">
-    <a href="index.html" class="logo">📘 English Easy</a>
+    <a href="index.html" class="logo">English Easy</a>
     <nav>
       <a href="index.html">Trang chủ</a>
       <a href="vocabulary.html">Từ vựng</a>
@@ -141,7 +141,7 @@
           <button class="btn btn-danger btn-sm" onclick="resetStructuresDefault()">Reset structures file</button>
         </div>
         <p style="color:#64748b;margin-bottom:12px;font-size:0.95rem;">
-          Mẫu schema: <code>data/structures.schema.example.json</code> · Nội dung gợi ý Summit 1 (FPT).
+          Mẫu schema: <code>data/structures.schema.example.json</code>.
         </p>
         <div style="overflow-x:auto;">
           <table class="admin-table">
@@ -171,6 +171,14 @@
           <div class="form-group">
             <label>Tên bài tập</label>
             <input type="text" id="quiz-title" placeholder="Ví dụ: Unit 1 - Cấu trúc 10 câu">
+          </div>
+
+          <div class="form-group">
+            <label>Giáo trình</label>
+            <select id="admin-quiz-course">
+              <option value="summit1">Summit 1</option>
+              <option value="topnotch3">Top Notch 3 - ENT303</option>
+            </select>
           </div>
 
           <div class="form-group">
@@ -254,6 +262,13 @@
         <input type="text" id="form-meaning" placeholder="quả táo">
       </div>
       <div class="form-group">
+        <label>Giáo trình *</label>
+        <select id="form-course">
+          <option value="summit1">Summit 1</option>
+          <option value="topnotch3">Top Notch 3 - ENT303</option>
+        </select>
+      </div>
+      <div class="form-group">
         <label>Unit / chủ đề *</label>
         <input type="text" id="form-topic" placeholder="Unit 1">
       </div>
@@ -276,6 +291,13 @@
   <div class="modal" id="structure-modal">
     <div class="modal-content">
       <h3 id="structure-modal-title">Thêm cấu trúc</h3>
+      <div class="form-group">
+        <label>Giáo trình *</label>
+        <select id="form-s-course">
+          <option value="summit1">Summit 1</option>
+          <option value="topnotch3">Top Notch 3 - ENT303</option>
+        </select>
+      </div>
       <div class="form-group">
         <label>Unit *</label>
         <input type="text" id="form-s-unit" placeholder="Unit 1">
@@ -399,7 +421,7 @@
       } catch (e) {}
     });
   </script>
-  <script src="js/quiz-manager.js?v=6"></script>
-  <script src="js/admin.js?v=6"></script>
+  <script src="js/quiz-manager.js?v=11"></script>
+  <script src="js/admin.js?v=9"></script>
 </body>
 </html>
